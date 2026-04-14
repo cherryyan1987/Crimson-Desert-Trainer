@@ -6,13 +6,12 @@
       "hero",
       "quick-info",
       "what-is-trainer",
+      "why-use",
       "features-overview",
+      "trainer-comparison",
       "download-cta",
       "how-to-use",
       "safety",
-      "troubleshooting",
-      "latest-updates",
-      "alternatives",
       "faq",
       "bottom-cta"
     ],
@@ -64,7 +63,7 @@
       "quick-info": {
         "id": "quick-info",
         "block": "quick-info",
-        "title": "快速信息",
+        "title": "Crimson Desert 修改器概览",
         "className": "relative z-20 -mt-10 md:-mt-16",
         "items": [
           {
@@ -73,15 +72,15 @@
           },
           {
             "title": "平台",
-            "description": "PC"
+            "description": "PC（Steam、Epic）"
           },
           {
-            "title": "内容",
-            "description": "修改器、作弊码、指南"
+            "title": "类型",
+            "description": "修改器 / 作弊码"
           },
           {
-            "title": "使用场景",
-            "description": "离线单人游戏支持"
+            "title": "主要功能",
+            "description": "生命、体力、金钱、速度"
           }
         ]
       },
@@ -92,6 +91,27 @@
         "description": "Crimson Desert 修改器是一种 PC 工具，可以添加可选的作弊风格游戏调整，如无限生命值、体力控制、精神编辑、伤害增强、资源更改和速度设置。它通常用于想要实验、减少重复刷怪、测试构建或以更多自由度重玩某些章节的玩家。",
         "extended_description": "本首页设计为中央指南。不仅显示下载按钮，还解释了修改器的功能、玩家通常寻找的功能、如何使用以及修改器无法工作时应该检查什么。",
         "className": "pt-8 md:pt-12"
+      },
+      "why-use": {
+        "id": "why-use",
+        "block": "text-section",
+        "title": "为什么要使用修改器？",
+        "description": "有些玩家会使用修改器来降低难度、更自由地探索开放世界，或跳过重复刷取内容。",
+        "extended_description": "也有人用它来测试不同流派、重玩喜欢的战斗片段，或者在资源限制更少的情况下体验游戏系统。",
+        "items": [
+          {
+            "title": "降低难度",
+            "description": "在熟悉系统和战斗节奏时，缓解过于严苛的战斗或推进压力。"
+          },
+          {
+            "title": "更自由地探索",
+            "description": "更轻松地游览世界、测试移动方式，并享受支线内容，而不必一直担心体力、伤害或资源消耗。"
+          },
+          {
+            "title": "跳过重复刷取",
+            "description": "减少枯燥重复，把时间更多留给剧情推进、探索内容和自由实验。"
+          }
+        ]
       },
       "features-overview": {
         "id": "features-overview",
@@ -135,6 +155,34 @@
               "时间推进1小时",
               "移动调整"
             ]
+          }
+        ]
+      },
+      "trainer-comparison": {
+        "id": "trainer-comparison",
+        "block": "comparison-table",
+        "title": "最佳 Crimson Desert 修改器选项",
+        "description": "下面是玩家在下载前最常比较的几种修改器方案。",
+        "comparison_headers": {
+          "feature": "选项",
+          "wemod": "适合人群",
+          "trainer": "上手难度"
+        },
+        "comparison_items": [
+          {
+            "feature": "FLiNG 修改器",
+            "wemod": "进阶用户",
+            "trainer": "中等"
+          },
+          {
+            "feature": "WeMod",
+            "wemod": "新手玩家",
+            "trainer": "非常容易"
+          },
+          {
+            "feature": "其他工具",
+            "wemod": "替代方案",
+            "trainer": "视情况而定"
           }
         ]
       },

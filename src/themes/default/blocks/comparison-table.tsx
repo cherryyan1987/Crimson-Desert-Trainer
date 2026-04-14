@@ -10,6 +10,12 @@ interface ComparisonItem {
   trainer: string;
 }
 
+interface ComparisonHeaders {
+  feature?: string;
+  wemod?: string;
+  trainer?: string;
+}
+
 export function ComparisonTable({
   section,
   className,
@@ -18,6 +24,7 @@ export function ComparisonTable({
   className?: string;
 }) {
   const comparisonItems = section.comparison_items as ComparisonItem[];
+  const headers = (section.comparison_headers || {}) as ComparisonHeaders;
 
   return (
     <section
@@ -44,13 +51,13 @@ export function ComparisonTable({
                   <thead>
                     <tr className="border-b border-[#dcc8b6] bg-[#f5ebe3]">
                       <th className="text-foreground px-6 py-4 text-left font-serif text-lg font-semibold">
-                        Feature
+                        {headers.feature || 'Feature'}
                       </th>
                       <th className="text-primary px-6 py-4 text-left font-serif text-lg font-semibold">
-                        WeMod
+                        {headers.wemod || 'WeMod'}
                       </th>
                       <th className="text-foreground px-6 py-4 text-left font-serif text-lg font-semibold">
-                        Traditional Trainer
+                        {headers.trainer || 'Traditional Trainer'}
                       </th>
                     </tr>
                   </thead>

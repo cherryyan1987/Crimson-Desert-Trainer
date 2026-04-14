@@ -6,13 +6,12 @@
       "hero",
       "quick-info",
       "what-is-trainer",
+      "why-use",
       "features-overview",
+      "trainer-comparison",
       "download-cta",
       "how-to-use",
       "safety",
-      "troubleshooting",
-      "latest-updates",
-      "alternatives",
       "faq",
       "bottom-cta"
     ],
@@ -64,7 +63,7 @@
       "quick-info": {
         "id": "quick-info",
         "block": "quick-info",
-        "title": "Quick Information",
+        "title": "Crimson Desert Trainer Overview",
         "className": "relative z-20 -mt-10 md:-mt-16",
         "items": [
           {
@@ -73,15 +72,15 @@
           },
           {
             "title": "Platform",
-            "description": "PC"
+            "description": "PC (Steam, Epic)"
           },
           {
-            "title": "Content",
-            "description": "Trainer, Cheats, Guide"
+            "title": "Type",
+            "description": "Trainer / Cheats"
           },
           {
-            "title": "Use Case",
-            "description": "Offline Single-Player Support"
+            "title": "Main Features",
+            "description": "Health, Stamina, Money, Speed"
           }
         ]
       },
@@ -92,6 +91,27 @@
         "description": "A Crimson Desert trainer is a PC tool that adds optional cheat-style gameplay adjustments, such as unlimited health, stamina control, spirit edits, damage boosts, resource changes, and speed settings. It is commonly used by players who want to experiment, reduce grind, test builds, or replay sections with more freedom.",
         "extended_description": "This homepage is designed as a central guide. Instead of only showing a download button, it explains what the trainer does, which features players usually look for, how to use it, and what to check if the trainer is not working.",
         "className": "pt-8 md:pt-12"
+      },
+      "why-use": {
+        "id": "why-use",
+        "block": "text-section",
+        "title": "Why Use a Trainer?",
+        "description": "Some players use trainers to reduce difficulty, explore the open world more freely, or skip repetitive grinding.",
+        "extended_description": "Others use them to test builds, revisit favorite combat encounters, or experiment with the game's systems without the usual resource limits.",
+        "items": [
+          {
+            "title": "Reduce Difficulty",
+            "description": "Smooth out punishing fights or difficult progression spikes while learning the game's systems."
+          },
+          {
+            "title": "Explore More Freely",
+            "description": "Roam the world, test movement, and enjoy side content without worrying about stamina, damage, or resource pressure."
+          },
+          {
+            "title": "Skip Repetitive Grinding",
+            "description": "Cut down on farming and repetition so you can focus on story beats, exploration, and experimentation."
+          }
+        ]
       },
       "features-overview": {
         "id": "features-overview",
@@ -135,6 +155,34 @@
               "Advance Time by 1 Hour",
               "Movement Adjustments"
             ]
+          }
+        ]
+      },
+      "trainer-comparison": {
+        "id": "trainer-comparison",
+        "block": "comparison-table",
+        "title": "Best Crimson Desert Trainer Options",
+        "description": "Here is a quick comparison of the most common trainer paths players consider before downloading.",
+        "comparison_headers": {
+          "feature": "Option",
+          "wemod": "Best For",
+          "trainer": "Ease of Use"
+        },
+        "comparison_items": [
+          {
+            "feature": "FLiNG Trainer",
+            "wemod": "Advanced users",
+            "trainer": "Medium"
+          },
+          {
+            "feature": "WeMod",
+            "wemod": "Beginners",
+            "trainer": "Very Easy"
+          },
+          {
+            "feature": "Other Tools",
+            "wemod": "Alternative setups",
+            "trainer": "Varies"
           }
         ]
       },
