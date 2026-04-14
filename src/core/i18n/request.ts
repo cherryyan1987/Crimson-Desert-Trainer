@@ -1,3 +1,6 @@
+import { readdirSync } from 'fs';
+import path from 'path';
+
 import { getRequestConfig } from 'next-intl/server';
 
 import { defaultLocale, localeMessagesPaths } from '@/config/locale';
@@ -28,14 +31,30 @@ export async function loadMessages(
   }
 }
 
+function getAllLocaleMessagePaths() {
+  const pagesDir = path.join(process.cwd(), 'src/config/locale/messages/en/pages');
+
+  try {
+    const pagePaths = readdirSync(pagesDir)
+      .filter((file) => file.endsWith('.json'))
+      .map((file) => `pages/${file.replace(/\.json$/, '')}`)
+      .sort();
+
+    return Array.from(new Set([...localeMessagesPaths, ...pagePaths]));
+  } catch {
+    return localeMessagesPaths;
+  }
+}
+
 async function buildMessages(locale: string) {
+  const allLocaleMessagePaths = getAllLocaleMessagePaths();
   const allMessages = await Promise.all(
-    localeMessagesPaths.map((path) => loadMessages(path, locale))
+    allLocaleMessagePaths.map((path) => loadMessages(path, locale))
   );
 
   const messages: Record<string, any> = {};
 
-  localeMessagesPaths.forEach((path, index) => {
+  allLocaleMessagePaths.forEach((path, index) => {
     const localMessages = allMessages[index];
     const keys = path.split('/');
     let current = messages;
