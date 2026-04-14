@@ -21,9 +21,9 @@ export function ScrollAnimation({
 }: ScrollAnimationProps) {
   const ref = useRef(null);
   const [hasMounted, setHasMounted] = useState(false);
-  const isInView = useInView(ref, {
+  useInView(ref, {
     once: true,
-    margin: "-50px", // Optimization: trigger animation earlier for better perceived performance
+    margin: "-50px", // Keep observer for future enhancement hooks.
   });
 
   useEffect(() => {
@@ -59,7 +59,6 @@ export function ScrollAnimation({
   };
 
   const containerVariants = {
-    hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: {
@@ -70,11 +69,6 @@ export function ScrollAnimation({
   };
 
   const itemVariants = {
-    hidden: {
-      opacity: 0,
-      ...getInitialPosition(),
-      filter: "blur(4px)",
-    },
     visible: {
       opacity: 1,
       x: 0,
@@ -93,7 +87,7 @@ export function ScrollAnimation({
         ref={ref}
         variants={containerVariants}
         initial="visible"
-        animate={isInView ? "visible" : "hidden"}
+        animate="visible"
         className={className}
       >
         {React.Children.map(children, (child) => (
@@ -107,20 +101,12 @@ export function ScrollAnimation({
     <motion.div
       ref={ref}
       initial="visible"
-      animate={
-        isInView
-          ? {
-              opacity: 1,
-              x: 0,
-              y: 0,
-              filter: "blur(0px)",
-            }
-          : {
-              opacity: 0,
-              ...getInitialPosition(),
-              filter: "blur(4px)",
-            }
-      }
+      animate={{
+        opacity: 1,
+        x: 0,
+        y: 0,
+        filter: "blur(0px)",
+      }}
       transition={{
         duration: 0.6,
         delay,

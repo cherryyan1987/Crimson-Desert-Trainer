@@ -1,10 +1,6 @@
 import { getRequestConfig } from 'next-intl/server';
 
-import {
-  defaultLocale,
-  localeMessagesPaths,
-  localeMessagesRootPath,
-} from '@/config/locale';
+import { defaultLocale, localeMessagesPaths } from '@/config/locale';
 
 import { routing } from './config';
 
@@ -32,6 +28,31 @@ export async function loadMessages(
   }
 }
 
+async function buildMessages(locale: string) {
+  const allMessages = await Promise.all(
+    localeMessagesPaths.map((path) => loadMessages(path, locale))
+  );
+
+  const messages: Record<string, any> = {};
+
+  localeMessagesPaths.forEach((path, index) => {
+    const localMessages = allMessages[index];
+    const keys = path.split('/');
+    let current = messages;
+
+    for (let i = 0; i < keys.length - 1; i++) {
+      if (!current[keys[i]]) {
+        current[keys[i]] = {};
+      }
+      current = current[keys[i]];
+    }
+
+    current[keys[keys.length - 1]] = localMessages;
+  });
+
+  return messages;
+}
+
 export default getRequestConfig(async ({ requestLocale }) => {
   let locale = await requestLocale;
   if (!locale || !routing.locales.includes(locale as string)) {
@@ -43,38 +64,16 @@ export default getRequestConfig(async ({ requestLocale }) => {
   }
 
   try {
-    // load all local messages
-    const allMessages = await Promise.all(
-      localeMessagesPaths.map((path) => loadMessages(path, locale))
-    );
-
-    // merge all local messages
-    const messages: any = {};
-
-    localeMessagesPaths.forEach((path, index) => {
-      const localMessages = allMessages[index];
-
-      const keys = path.split('/');
-      let current = messages;
-
-      for (let i = 0; i < keys.length - 1; i++) {
-        if (!current[keys[i]]) {
-          current[keys[i]] = {};
-        }
-        current = current[keys[i]];
-      }
-
-      current[keys[keys.length - 1]] = localMessages;
-    });
-
     return {
       locale,
-      messages,
+      messages: await buildMessages(locale),
     };
   } catch (e) {
+    console.error('Failed to build locale messages:', e);
+
     return {
       locale: defaultLocale,
-      messages: await loadMessages(localeMessagesRootPath, defaultLocale),
+      messages: await buildMessages(defaultLocale),
     };
   }
 });

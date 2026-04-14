@@ -12,7 +12,7 @@ export default function robots(): MetadataRoute.Robots {
       disallow: [
         '/*?*q=',
         '/privacy-policy',
-        '/terms-of-service',
+        '/terms-of-use',
         '/settings/*',
         '/activity/*',
         '/admin/*',
@@ -22,4 +22,3 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: `${appUrl}/sitemap.xml`,
   };
 }
-

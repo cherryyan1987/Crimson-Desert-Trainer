@@ -45,6 +45,13 @@ export default async function DynamicPage({
                     />
                   );
                 } catch (error) {
+                  const sectionLabel = `${block} (${sectionKey})`;
+                  console.error(`Failed to render dynamic section: ${sectionLabel}`, error);
+
+                  if (process.env.NODE_ENV !== 'production') {
+                    throw error;
+                  }
+
                   return null;
                 }
             }

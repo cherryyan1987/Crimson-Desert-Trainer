@@ -1,3 +1,6 @@
+import { readdirSync } from 'fs';
+import path from 'path';
+
 import { envConfigs } from '..';
 
 export const localeNames: any = {
@@ -15,7 +18,7 @@ export const localeDetection = false;
 
 export const localeMessagesRootPath = '@/config/locale/messages';
 
-export const localeMessagesPaths = [
+const staticLocaleMessagesPaths = [
   'common',
   'landing',
   'showcases',
@@ -49,16 +52,32 @@ export const localeMessagesPaths = [
   'activity/sidebar',
   'activity/ai-tasks',
   'activity/chats',
-  'pages/index',
-  'pages/download',
-  'pages/cheats',
-  'pages/not-working',
-  'pages/crimson-desert-wemod',
-  'pages/privacy-policy',
-  'pages/terms-of-use',
-  'pages/disclaimer',
-  'pages/pricing',
-  'pages/showcases',
-  'pages/blog',
-  'pages/updates',
+];
+
+function getPageLocaleMessagePaths() {
+  const pagesDir = path.join(process.cwd(), 'src/config/locale/messages/en/pages');
+
+  try {
+    return readdirSync(pagesDir)
+      .filter((file) => file.endsWith('.json'))
+      .map((file) => `pages/${file.replace(/\.json$/, '')}`)
+      .sort();
+  } catch {
+    // Fall back to the known-good core page set if filesystem access is not available.
+    return [
+      'pages/index',
+      'pages/download',
+      'pages/cheats',
+      'pages/not-working',
+      'pages/pricing',
+      'pages/showcases',
+      'pages/blog',
+      'pages/updates',
+    ];
+  }
+}
+
+export const localeMessagesPaths = [
+  ...staticLocaleMessagesPaths,
+  ...getPageLocaleMessagePaths(),
 ];
