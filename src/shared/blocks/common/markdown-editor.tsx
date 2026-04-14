@@ -28,8 +28,8 @@ export function MarkdownEditor({
       value,
       onChange,
       placeholder,
-      minHeight,
-      showToolbar,
+      minHeight: `${minHeight}px`,
+      toolbar: showToolbar,
     });
     editorRef.current = instance;
 
@@ -46,7 +46,7 @@ export function MarkdownEditor({
     <div
       className="overflow-hidden rounded-md border"
       ref={ref}
-      style={{ height: '400px' }}
+      style={{ minHeight: `${minHeight}px` }}
     />
   );
 }
