@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "title": "隐私政策 - Crimson Desert 修改器",
+    "description": "了解 CrimsonDesertTrainer.com 如何收集、使用和保护您的信息。阅读我们的完整隐私政策。"
+  },
+  "page": {
+    "title": "隐私政策",
+    "description": "本隐私政策说明了 CrimsonDesertTrainer.com 如何收集、使用和保护您的信息。",
+    "show_sections": [
+      "intro",
+      "information-we-collect",
+      "cookies",
+      "advertising",
+      "affiliate-links",
+      "third-party-links",
+      "data-protection",
+      "childrens-information",
+      "changes-to-policy",
+      "contact"
+    ],
+    "sections": {
+      "intro": {
+        "id": "intro",
+        "block": "text-section",
+        "title": "隐私政策",
+        "description": "本隐私政策说明了 CrimsonDesertTrainer.com 如何收集、使用和保护您的信息。"
+      },
+      "information-we-collect": {
+        "id": "information-we-collect",
+        "block": "text-section",
+        "title": "1. 我们收集的信息",
+        "description": "我们可能会收集非个人信息，例如浏览器类型、设备类型、访问页面和一般使用数据。除非您主动联系我们，否则我们不会收集个人身份信息。"
+      },
+      "cookies": {
+        "id": "cookies",
+        "block": "text-section",
+        "title": "2. Cookie",
+        "description": "我们使用 Cookie 来改善用户体验、分析流量并支持广告功能。"
+      },
+      "advertising": {
+        "id": "advertising",
+        "block": "text-section",
+        "title": "3. 广告",
+        "description": "我们可能会通过第三方广告网络展示广告。这些网络可能会使用 Cookie 和类似技术，根据您的浏览活动展示相关广告。"
+      },
+      "affiliate-links": {
+        "id": "affiliate-links",
+        "block": "text-section",
+        "title": "4. 联盟链接",
+        "description": "本网站上的某些链接可能是联盟链接。这意味着如果您点击链接并采取行动，我们可能会获得佣金，但不会增加您的任何费用。"
+      },
+      "third-party-links": {
+        "id": "third-party-links",
+        "block": "text-section",
+        "title": "5. 第三方链接",
+        "description": "本网站包含指向外部网站的链接。我们不对这些网站的隐私做法或内容负责。"
+      },
+      "data-protection": {
+        "id": "data-protection",
+        "block": "text-section",
+        "title": "6. 数据保护",
+        "description": "我们采取合理措施保护您的信息，但互联网上没有任何传输方式是完全安全的。"
+      },
+      "childrens-information": {
+        "id": "childrens-information",
+        "block": "text-section",
+        "title": "7. 儿童信息",
+        "description": "本网站不面向 13 岁以下的儿童。我们不会故意收集儿童的个人信息。"
+      },
+      "changes-to-policy": {
+        "id": "changes-to-policy",
+        "block": "text-section",
+        "title": "8. 政策变更",
+        "description": "我们可能会不时更新本隐私政策。继续使用本网站即表示您接受任何变更。"
+      },
+      "contact": {
+        "id": "contact",
+        "block": "text-section",
+        "title": "9. 联系方式",
+        "description": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们：touch@crimsondeserttrainer.com"
+      }
+    }
+  }
+}

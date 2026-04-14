@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "title": "免责声明 - Crimson Desert 修改器",
+    "description": "阅读 CrimsonDesertTrainer.com 的免责声明。我们不托管、创建或分发任何修改器文件。"
+  },
+  "page": {
+    "title": "免责声明",
+    "description": "本网站上的信息仅供一般参考之用。",
+    "show_sections": [
+      "intro",
+      "third-party-content",
+      "no-responsibility",
+      "own-risk"
+    ],
+    "sections": {
+      "intro": {
+        "id": "intro",
+        "block": "text-section",
+        "title": "免责声明",
+        "description": "本网站上的信息仅供一般参考之用。"
+      },
+      "third-party-content": {
+        "id": "third-party-content",
+        "block": "text-section",
+        "title": "第三方内容",
+        "description": "我们不托管、创建或分发任何修改器文件。所有下载均由第三方来源提供。"
+      },
+      "no-responsibility": {
+        "id": "no-responsibility",
+        "block": "text-section",
+        "title": "不承担责任",
+        "description": "我们对任何外部工具或下载的安全性、合法性或功能不承担任何责任。"
+      },
+      "own-risk": {
+        "id": "own-risk",
+        "block": "text-section",
+        "title": "风险自担",
+        "description": "使用所有工具的风险由您自行承担。"
+      }
+    }
+  }
+}

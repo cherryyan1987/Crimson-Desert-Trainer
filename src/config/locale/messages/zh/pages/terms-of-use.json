@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "title": "使用条款 - Crimson Desert 修改器",
+    "description": "CrimsonDesertTrainer.com 的使用条款和条件。访问或使用本网站即表示您同意这些条款。"
+  },
+  "page": {
+    "title": "使用条款",
+    "description": "欢迎访问 CrimsonDesertTrainer.com。访问或使用本网站即表示您同意以下条款和条件。",
+    "show_sections": [
+      "intro",
+      "website-purpose",
+      "external-links",
+      "no-warranty",
+      "user-responsibility",
+      "intellectual-property",
+      "limitation-of-liability",
+      "changes-to-terms",
+      "contact"
+    ],
+    "sections": {
+      "intro": {
+        "id": "intro",
+        "block": "text-section",
+        "title": "使用条款",
+        "description": "欢迎访问 CrimsonDesertTrainer.com。访问或使用本网站即表示您同意以下条款和条件。"
+      },
+      "website-purpose": {
+        "id": "website-purpose",
+        "block": "text-section",
+        "title": "1. 网站目的",
+        "description": "本网站提供与 Crimson Desert 修改器、作弊码、指南和外部资源相关的信息内容。我们不直接托管或分发可执行文件。"
+      },
+      "external-links": {
+        "id": "external-links",
+        "block": "text-section",
+        "title": "2. 外部链接",
+        "description": "本网站可能包含指向第三方网站的链接，用于下载修改器或相关工具。这些外部网站不受我们控制，我们不对其内容、安全性或做法负责。"
+      },
+      "no-warranty": {
+        "id": "no-warranty",
+        "block": "text-section",
+        "title": "3. 免责声明",
+        "description": "所有内容仅供 informational 参考之用。我们不保证任何修改器或工具能在您的系统或游戏版本上正常工作。"
+      },
+      "user-responsibility": {
+        "id": "user-responsibility",
+        "block": "text-section",
+        "title": "4. 用户责任",
+        "description": "您对如何使用本网站引用的信息和工具承担全部责任。我们建议仅在离线或单机环境中使用修改器。"
+      },
+      "intellectual-property": {
+        "id": "intellectual-property",
+        "block": "text-section",
+        "title": "5. 知识产权",
+        "description": "所有商标、游戏名称和标识均属于其各自所有者。本网站与 Crimson Desert 的官方开发者没有任何关联。"
+      },
+      "limitation-of-liability": {
+        "id": "limitation-of-liability",
+        "block": "text-section",
+        "title": "6. 责任限制",
+        "description": "对于因使用第三方工具或下载而导致的任何损害、数据丢失或问题，我们不承担任何责任。"
+      },
+      "changes-to-terms": {
+        "id": "changes-to-terms",
+        "block": "text-section",
+        "title": "7. 条款变更",
+        "description": "我们可能会随时更新这些条款。继续使用本网站即表示您接受更新后的条款。"
+      },
+      "contact": {
+        "id": "contact",
+        "block": "text-section",
+        "title": "8. 联系方式",
+        "description": "如有任何问题，请通过以下方式联系我们：touch@crimsondeserttrainer.com"
+      }
+    }
+  }
+}

@@ -138,12 +138,16 @@
           "url": "/privacy-policy"
         },
         {
-          "title": "Terms of Service",
-          "url": "/terms-of-service"
+          "title": "Terms of Use",
+          "url": "/terms-of-use"
         },
         {
           "title": "Disclaimer",
           "url": "/disclaimer"
+        },
+        {
+          "title": "Contact",
+          "url": "mailto:touch@crimsondeserttrainer.com"
         }
       ]
     },

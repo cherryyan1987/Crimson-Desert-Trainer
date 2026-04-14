@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "title": "Disclaimer - Crimson Desert Trainer",
+    "description": "Read the disclaimer for CrimsonDesertTrainer.com. We do not host, create, or distribute any trainer files."
+  },
+  "page": {
+    "title": "Disclaimer",
+    "description": "The information on this website is provided for general informational purposes only.",
+    "show_sections": [
+      "intro",
+      "third-party-content",
+      "no-responsibility",
+      "own-risk"
+    ],
+    "sections": {
+      "intro": {
+        "id": "intro",
+        "block": "text-section",
+        "title": "Disclaimer",
+        "description": "The information on this website is provided for general informational purposes only."
+      },
+      "third-party-content": {
+        "id": "third-party-content",
+        "block": "text-section",
+        "title": "Third-Party Content",
+        "description": "We do not host, create, or distribute any trainer files. All downloads are provided by third-party sources."
+      },
+      "no-responsibility": {
+        "id": "no-responsibility",
+        "block": "text-section",
+        "title": "No Responsibility",
+        "description": "We are not responsible for the safety, legality, or functionality of any external tools or downloads."
+      },
+      "own-risk": {
+        "id": "own-risk",
+        "block": "text-section",
+        "title": "Use at Your Own Risk",
+        "description": "Use all tools at your own risk."
+      }
+    }
+  }
+}

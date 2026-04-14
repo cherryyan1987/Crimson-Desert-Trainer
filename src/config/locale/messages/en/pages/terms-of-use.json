@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "title": "Terms of Use - Crimson Desert Trainer",
+    "description": "Terms and conditions for using CrimsonDesertTrainer.com. By accessing or using this website, you agree to these terms."
+  },
+  "page": {
+    "title": "Terms of Use",
+    "description": "Welcome to CrimsonDesertTrainer.com. By accessing or using this website, you agree to the following terms and conditions.",
+    "show_sections": [
+      "intro",
+      "website-purpose",
+      "external-links",
+      "no-warranty",
+      "user-responsibility",
+      "intellectual-property",
+      "limitation-of-liability",
+      "changes-to-terms",
+      "contact"
+    ],
+    "sections": {
+      "intro": {
+        "id": "intro",
+        "block": "text-section",
+        "title": "Terms of Use",
+        "description": "Welcome to CrimsonDesertTrainer.com. By accessing or using this website, you agree to the following terms and conditions."
+      },
+      "website-purpose": {
+        "id": "website-purpose",
+        "block": "text-section",
+        "title": "1. Website Purpose",
+        "description": "This website provides informational content related to Crimson Desert trainers, cheats, guides, and external resources. We do not host or distribute executable files directly."
+      },
+      "external-links": {
+        "id": "external-links",
+        "block": "text-section",
+        "title": "2. External Links",
+        "description": "Our website may contain links to third-party websites for downloading trainers or related tools. These external sites are not controlled by us, and we are not responsible for their content, security, or practices."
+      },
+      "no-warranty": {
+        "id": "no-warranty",
+        "block": "text-section",
+        "title": "3. No Warranty",
+        "description": "All content is provided for informational purposes only. We do not guarantee that any trainer or tool will work with your system or game version."
+      },
+      "user-responsibility": {
+        "id": "user-responsibility",
+        "block": "text-section",
+        "title": "4. User Responsibility",
+        "description": "You are responsible for how you use the information and tools referenced on this site. We recommend using trainers only in offline or single-player environments."
+      },
+      "intellectual-property": {
+        "id": "intellectual-property",
+        "block": "text-section",
+        "title": "5. Intellectual Property",
+        "description": "All trademarks, game names, and logos belong to their respective owners. This site is not affiliated with the official developers of Crimson Desert."
+      },
+      "limitation-of-liability": {
+        "id": "limitation-of-liability",
+        "block": "text-section",
+        "title": "6. Limitation of Liability",
+        "description": "We are not liable for any damages, data loss, or issues arising from the use of third-party tools or downloads."
+      },
+      "changes-to-terms": {
+        "id": "changes-to-terms",
+        "block": "text-section",
+        "title": "7. Changes to Terms",
+        "description": "We may update these terms at any time. Continued use of the website means you accept the updated terms."
+      },
+      "contact": {
+        "id": "contact",
+        "block": "text-section",
+        "title": "8. Contact",
+        "description": "If you have any questions, please contact us at: touch@crimsondeserttrainer.com"
+      }
+    }
+  }
+}

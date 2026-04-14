@@ -53,6 +53,7 @@ export const localeMessagesPaths = [
   'pages/download',
   'pages/cheats',
   'pages/not-working',
+  'pages/crimson-desert-wemod',
   'pages/pricing',
   'pages/showcases',
   'pages/blog',

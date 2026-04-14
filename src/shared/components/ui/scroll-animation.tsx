@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion, useInView, useReducedMotion } from "framer-motion";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 interface ScrollAnimationProps {
   children: React.ReactNode;
@@ -20,16 +20,22 @@ export function ScrollAnimation({
   stagger = false,
 }: ScrollAnimationProps) {
   const ref = useRef(null);
+  const [hasMounted, setHasMounted] = useState(false);
   const isInView = useInView(ref, {
     once: true,
     margin: "-50px", // Optimization: trigger animation earlier for better perceived performance
   });
 
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
+
   // Respect user's reduced motion preference (accessibility)
   const shouldReduceMotion = useReducedMotion();
 
-  // If user prefers reduced motion or JavaScript is disabled, show content directly
-  if (shouldReduceMotion) {
+  // Keep SSR content visible by default so a client-side error does not turn
+  // the whole page into a blank screen.
+  if (!hasMounted || shouldReduceMotion) {
     return (
       <div ref={ref} className={className}>
         {children}
@@ -86,7 +92,7 @@ export function ScrollAnimation({
       <motion.div
         ref={ref}
         variants={containerVariants}
-        initial="hidden"
+        initial="visible"
         animate={isInView ? "visible" : "hidden"}
         className={className}
       >
@@ -100,11 +106,7 @@ export function ScrollAnimation({
   return (
     <motion.div
       ref={ref}
-      initial={{
-        opacity: 0,
-        ...getInitialPosition(),
-        filter: "blur(4px)",
-      }}
+      initial="visible"
       animate={
         isInView
           ? {
