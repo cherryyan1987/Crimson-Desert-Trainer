@@ -1,8 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-// @ts-ignore
-import { OverType } from 'overtype';
+import OverType, { type OverType as OverTypeInstance } from 'overtype';
 
 export function MarkdownEditor({
   value,
@@ -18,9 +17,13 @@ export function MarkdownEditor({
   showToolbar?: boolean;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const editorRef = useRef<OverType>(null);
+  const editorRef = useRef<OverTypeInstance | null>(null);
 
   useEffect(() => {
+    if (!ref.current) {
+      return;
+    }
+
     const [instance] = OverType.init(ref.current, {
       value,
       onChange,
