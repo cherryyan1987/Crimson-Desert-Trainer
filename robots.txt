@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cherryyan1987.github.io/Crimson-Desert-Trainer/sitemap.xml
