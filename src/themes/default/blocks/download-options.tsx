@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 import { Link } from '@/core/i18n/navigation';
@@ -46,53 +47,79 @@ export function DownloadOptions({
                   item.featured && 'border-primary/40 ring-primary/10 ring-4'
                 )}
               >
-                {item.badge && (
-                  <div className="bg-primary/10 text-primary mb-4 inline-flex rounded-full px-3 py-1 text-xs font-semibold">
-                    {item.badge}
+                <div
+                  className={cn(
+                    'grid gap-8',
+                    item.image?.src &&
+                      'lg:grid-cols-[320px_minmax(0,1fr)] lg:items-center'
+                  )}
+                >
+                  {item.image?.src && (
+                    <div className="overflow-hidden rounded-2xl border border-[#dcc8b6] bg-[linear-gradient(180deg,rgba(255,255,255,0.96),rgba(248,239,231,0.88))] p-3 shadow-lg shadow-[#1b1008]/8">
+                      <Image
+                        src={item.image.src}
+                        alt={item.image.alt || item.title || ''}
+                        width={item.image.width || 1588}
+                        height={item.image.height || 1160}
+                        className="h-full w-full rounded-xl object-cover"
+                        sizes="(max-width: 1024px) 100vw, 320px"
+                        unoptimized={item.image.src.startsWith('http')}
+                      />
+                    </div>
+                  )}
+
+                  <div>
+                    {item.badge && (
+                      <div className="bg-primary/10 text-primary mb-4 inline-flex rounded-full px-3 py-1 text-xs font-semibold">
+                        {item.badge}
+                      </div>
+                    )}
+
+                    <h3 className="text-foreground mb-4 text-2xl font-semibold">
+                      {item.title}
+                    </h3>
+
+                    {item.description && (
+                      <p className="text-muted-foreground mb-6 text-base leading-7">
+                        {item.description}
+                      </p>
+                    )}
+
+                    {item.items && item.items.length > 0 && (
+                      <ul className="mb-6 space-y-3">
+                        {item.items.map(
+                          (bullet: SectionItem, bulletIdx: number) => (
+                            <li key={bulletIdx} className="flex items-start gap-3">
+                              <CheckCircle2 className="text-primary mt-0.5 size-4 flex-shrink-0" />
+                              <span className="text-foreground text-sm">
+                                {bullet.title}
+                              </span>
+                            </li>
+                          )
+                        )}
+                      </ul>
+                    )}
+
+                    {item.url && item.text && (
+                      <Button
+                        asChild
+                        variant={item.variant || 'default'}
+                        className="w-full sm:w-auto"
+                      >
+                        <Link href={item.url} target={item.target || '_self'}>
+                          <span>{item.text}</span>
+                          <ArrowRight className="size-4" />
+                        </Link>
+                      </Button>
+                    )}
+
+                    {item.tip && (
+                      <p className="text-muted-foreground mt-4 text-sm">
+                        {item.tip}
+                      </p>
+                    )}
                   </div>
-                )}
-
-                <h3 className="text-foreground mb-4 text-2xl font-semibold">
-                  {item.title}
-                </h3>
-
-                {item.description && (
-                  <p className="text-muted-foreground mb-6 text-base leading-7">
-                    {item.description}
-                  </p>
-                )}
-
-                {item.items && item.items.length > 0 && (
-                  <ul className="mb-6 space-y-3">
-                    {item.items.map((bullet: SectionItem, bulletIdx: number) => (
-                      <li key={bulletIdx} className="flex items-start gap-3">
-                        <CheckCircle2 className="text-primary mt-0.5 size-4 flex-shrink-0" />
-                        <span className="text-foreground text-sm">
-                          {bullet.title}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-
-                {item.url && item.text && (
-                  <Button
-                    asChild
-                    variant={item.variant || 'default'}
-                    className="w-full sm:w-auto"
-                  >
-                    <Link href={item.url} target={item.target || '_self'}>
-                      <span>{item.text}</span>
-                      <ArrowRight className="size-4" />
-                    </Link>
-                  </Button>
-                )}
-
-                {item.tip && (
-                  <p className="text-muted-foreground mt-4 text-sm">
-                    {item.tip}
-                  </p>
-                )}
+                </div>
               </article>
             ))}
           </div>

@@ -42,6 +42,12 @@
             "description": "目前最常被使用的 Crimson Desert 修改器方案通常基于 FLiNG 构建。它覆盖主流 PC 版本，并提供生命值、体力、精神、伤害、金钱和速度控制等核心功能。",
             "badge": "推荐",
             "featured": true,
+            "image": {
+              "src": "/FLiNG Trainer.png",
+              "alt": "FLiNG Trainer 构建预览图",
+              "width": 1588,
+              "height": 1160
+            },
             "items": [
               {
                 "title": "适配常见 PC 版本"
@@ -70,6 +76,12 @@
           {
             "title": "WeMod",
             "description": "WeMod 是一个提供图形化作弊开关的平台，适合更偏好引导式操作、而不是手动管理 trainer 文件的用户。",
+            "image": {
+              "src": "/wemod.webp",
+              "alt": "WeMod 应用界面预览",
+              "width": 2400,
+              "height": 1360
+            },
             "items": [
               {
                 "title": "界面对新手更友好"

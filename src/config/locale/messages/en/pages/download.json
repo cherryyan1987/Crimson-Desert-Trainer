@@ -42,6 +42,12 @@
             "description": "The most widely used Crimson Desert trainer is based on FLiNG builds. It supports major PC versions and includes core cheat features such as health, stamina, spirit, damage, money, and speed controls.",
             "badge": "Recommended",
             "featured": true,
+            "image": {
+              "src": "/FLiNG Trainer.png",
+              "alt": "FLiNG Trainer build preview",
+              "width": 1588,
+              "height": 1160
+            },
             "items": [
               {
                 "title": "Works with common PC versions"
