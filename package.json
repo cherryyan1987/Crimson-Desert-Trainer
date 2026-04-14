@@ -14,5 +14,10 @@
     "db:migrate": "tsx scripts/with-env.ts npx drizzle-kit migrate --config=src/core/db/config.ts",
     "db:push": "tsx scripts/with-env.ts npx drizzle-kit push --config=src/core/db/config.ts",
     "db:studio": "tsx scripts/with-env.ts npx drizzle-kit studio --config=src/core/db/config.ts"
+  },
+  "dependencies": {
+    "next": "16.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
