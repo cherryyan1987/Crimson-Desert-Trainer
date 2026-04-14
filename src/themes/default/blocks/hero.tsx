@@ -57,13 +57,19 @@ export function Hero({
         <div className="container relative">
           <div
             className={cn(
-              'grid gap-12 lg:items-end',
+              'grid gap-12 lg:items-center lg:gap-16 xl:gap-20',
               section.image?.src
-                ? 'lg:grid-cols-[minmax(0,1.15fr)_minmax(320px,0.85fr)]'
+                ? 'lg:grid-cols-[minmax(0,1.14fr)_minmax(340px,0.82fr)]'
                 : 'lg:grid-cols-1'
             )}
           >
-            <div className={cn(section.image?.src ? 'max-w-3xl' : 'mx-auto max-w-5xl text-center')}>
+            <div
+              className={cn(
+                section.image?.src
+                  ? 'flex h-full max-w-3xl flex-col justify-center lg:min-h-[760px]'
+                  : 'mx-auto max-w-5xl text-center'
+              )}
+            >
               {section.label && (
                 <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/8 px-4 py-2 text-xs font-semibold tracking-[0.28em] text-white/80 uppercase backdrop-blur-md">
                   <Sparkles className="size-3.5" />
@@ -85,7 +91,7 @@ export function Hero({
 
               <p
                 className={cn(
-                  'mt-6 text-lg leading-8 text-white/78 md:text-xl',
+                  'mt-7 text-lg leading-8 text-white/78 md:text-xl',
                   section.image?.src ? 'max-w-2xl' : 'mx-auto max-w-3xl'
                 )}
                 dangerouslySetInnerHTML={{ __html: section.description ?? '' }}
@@ -94,7 +100,7 @@ export function Hero({
               {section.buttons && (
                 <div
                   className={cn(
-                    'mt-8 flex flex-wrap gap-4',
+                    'mt-10 flex flex-wrap gap-4',
                     section.image?.src ? '' : 'justify-center'
                   )}
                 >
@@ -126,7 +132,7 @@ export function Hero({
 
               <div
                 className={cn(
-                  'mt-8 grid gap-4 sm:grid-cols-2',
+                  'mt-10 grid gap-4 sm:grid-cols-2',
                   section.image?.src ? '' : 'mx-auto max-w-4xl'
                 )}
               >
@@ -160,9 +166,9 @@ export function Hero({
               </div>
             </div>
 
-            <div className="grid gap-4">
+            <div className="grid gap-3 lg:pl-2 xl:pl-4">
               {section.image?.src && (
-                <div className="relative overflow-hidden rounded-[2rem] border border-white/12 bg-black/25 p-3 shadow-2xl shadow-black/40 backdrop-blur-md">
+                <div className="relative mx-auto w-full max-w-[30rem] overflow-hidden rounded-[2rem] border border-white/12 bg-black/25 p-3 shadow-2xl shadow-black/40 backdrop-blur-md xl:max-w-[32rem]">
                   <div className="absolute inset-x-6 top-5 z-10 flex items-center gap-2">
                     <span className="size-2 rounded-full bg-[#ff8e6a]" />
                     <span className="size-2 rounded-full bg-[#f0bf85]" />
@@ -183,11 +189,11 @@ export function Hero({
               )}
 
               {section.items && section.items.length > 0 && (
-                <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
+                <div className="grid gap-3 sm:grid-cols-3 lg:mx-auto lg:w-full lg:max-w-[30rem] lg:grid-cols-1 xl:max-w-[32rem]">
                   {section.items.map((item, idx) => (
                     <div
                       key={idx}
-                      className="rounded-2xl border border-white/10 bg-white/8 p-5 backdrop-blur-md"
+                      className="rounded-2xl border border-white/10 bg-white/8 p-4 backdrop-blur-md"
                     >
                       <div className="text-[11px] font-semibold tracking-[0.22em] text-white/55 uppercase">
                         {item.title}
