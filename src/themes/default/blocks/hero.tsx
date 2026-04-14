@@ -28,6 +28,7 @@ export function Hero({
     return (
       <section
         id={section.id}
+        data-immersive-hero="true"
         className={cn(
           'relative isolate overflow-hidden pt-28 pb-20 text-white md:pt-40 md:pb-24',
           section.className,

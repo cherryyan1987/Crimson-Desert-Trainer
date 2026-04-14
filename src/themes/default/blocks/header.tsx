@@ -46,10 +46,13 @@ function NavigationMenuTrigger(
 export function Header({ header }: { header: HeaderType }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [hasImmersiveHero, setHasImmersiveHero] = useState(false);
   const isScrolledRef = useRef(false);
   const scrollRafRef = useRef<number | null>(null);
   const isLarge = useMedia('(min-width: 64rem)');
   const pathname = usePathname();
+
+  const useInvertedHeader = hasImmersiveHero && !isScrolled && !isMobileMenuOpen;
 
   useEffect(() => {
     // Listen to scroll event to enable header styles on scroll
@@ -79,6 +82,21 @@ export function Header({ header }: { header: HeaderType }) {
     };
   }, []);
 
+  useEffect(() => {
+    const updateImmersiveHero = () => {
+      const immersiveHero = document.querySelector('[data-immersive-hero="true"]');
+      setHasImmersiveHero(Boolean(immersiveHero));
+    };
+
+    updateImmersiveHero();
+
+    window.addEventListener('resize', updateImmersiveHero);
+
+    return () => {
+      window.removeEventListener('resize', updateImmersiveHero);
+    };
+  }, [pathname]);
+
   // Navigation menu for large screens
   const NavMenu = () => {
     return (
@@ -94,11 +112,16 @@ export function Header({ header }: { header: HeaderType }) {
                   <Link
                     href={item.url || ''}
                     target={item.target || '_self'}
-                    className={`flex flex-row items-center gap-2 px-4 py-1.5 text-sm ${
-                      item.is_active || pathname.endsWith(item.url as string)
-                        ? 'bg-muted/40 text-muted-foreground'
-                        : ''
-                    }`}
+                    className={cn(
+                      'flex flex-row items-center gap-2 rounded-md px-4 py-1.5 text-sm transition-colors',
+                      useInvertedHeader
+                        ? item.is_active || pathname.endsWith(item.url as string)
+                          ? 'bg-white/12 text-white'
+                          : 'text-white/88 hover:bg-white/8 hover:text-white'
+                        : item.is_active || pathname.endsWith(item.url as string)
+                          ? 'bg-muted/40 text-muted-foreground'
+                          : ''
+                    )}
                   >
                     {item.icon && <SmartIcon name={item.icon as string} />}
                     {item.title}
@@ -109,7 +132,12 @@ export function Header({ header }: { header: HeaderType }) {
 
             return (
               <NavigationMenuItem key={idx}>
-                <NavigationMenuTrigger className="flex flex-row items-center gap-2 text-sm">
+                <NavigationMenuTrigger
+                  className={cn(
+                    'flex flex-row items-center gap-2 text-sm transition-colors',
+                    useInvertedHeader && 'text-white/88 hover:text-white'
+                  )}
+                >
                   {item.icon && (
                     <SmartIcon name={item.icon as string} className="h-4 w-4" />
                   )}
@@ -254,6 +282,8 @@ export function Header({ header }: { header: HeaderType }) {
         <div
           className={cn(
             'absolute inset-x-0 top-0 z-50 h-18 border-transparent ring-1 ring-transparent transition-all duration-300',
+            useInvertedHeader &&
+              'border-white/10 bg-black/28 text-white backdrop-blur-md ring-white/10',
             'in-data-scrolled:border-foreground/5 in-data-scrolled:bg-background/75 in-data-scrolled:border-b in-data-scrolled:backdrop-blur',
             'has-data-[state=open]:ring-foreground/5 has-data-[state=open]:bg-card/75 has-data-[state=open]:h-[calc(var(--navigation-menu-viewport-height)+3.4rem)] has-data-[state=open]:border-b has-data-[state=open]:shadow-lg has-data-[state=open]:shadow-black/10 has-data-[state=open]:backdrop-blur',
             'max-lg:in-data-[state=active]:bg-background/75 max-lg:h-14 max-lg:overflow-hidden max-lg:border-b max-lg:in-data-[state=active]:h-screen max-lg:in-data-[state=active]:backdrop-blur'
@@ -263,7 +293,11 @@ export function Header({ header }: { header: HeaderType }) {
             <div className="relative flex flex-wrap items-center justify-between lg:py-5">
               <div className="flex justify-between gap-8 max-lg:h-14 max-lg:w-full max-lg:border-b">
                 {/* Brand Logo */}
-                {header.brand && <BrandLogo brand={header.brand} />}
+                {header.brand && (
+                  <div className={cn(useInvertedHeader && '[&_span]:text-white')}>
+                    <BrandLogo brand={header.brand} />
+                  </div>
+                )}
 
                 {/* Desktop Navigation Menu */}
                 {isLarge && <NavMenu />}
@@ -273,7 +307,10 @@ export function Header({ header }: { header: HeaderType }) {
                   aria-label={
                     isMobileMenuOpen == true ? 'Close Menu' : 'Open Menu'
                   }
-                  className="relative z-20 -m-2.5 -mr-3 block cursor-pointer p-2.5 lg:hidden"
+                  className={cn(
+                    'relative z-20 -m-2.5 -mr-3 block cursor-pointer p-2.5 lg:hidden',
+                    useInvertedHeader && 'text-white'
+                  )}
                 >
                   <Menu className="m-auto size-5 duration-200 in-data-[state=active]:scale-0 in-data-[state=active]:rotate-180 in-data-[state=active]:opacity-0" />
                   <X className="absolute inset-0 m-auto size-5 scale-0 -rotate-180 opacity-0 duration-200 in-data-[state=active]:scale-100 in-data-[state=active]:rotate-0 in-data-[state=active]:opacity-100" />
@@ -298,7 +335,9 @@ export function Header({ header }: { header: HeaderType }) {
                           'focus-visible:ring-ring inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap transition-colors focus-visible:ring-1 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50',
                           'h-7 px-3 ring-0',
                           button.variant === 'outline'
-                            ? 'bg-background border-primary ring-foreground/10 hover:bg-muted/50 dark:ring-foreground/15 dark:hover:bg-muted/50 border border-transparent shadow-sm ring-1 shadow-black/15 duration-200'
+                            ? useInvertedHeader
+                              ? 'border border-white/18 bg-white/10 text-white ring-1 ring-white/10 shadow-sm shadow-black/25 hover:bg-white/14 duration-200'
+                              : 'bg-background border-primary ring-foreground/10 hover:bg-muted/50 dark:ring-foreground/15 dark:hover:bg-muted/50 border border-transparent shadow-sm ring-1 shadow-black/15 duration-200'
                             : 'bg-primary text-primary-foreground hover:bg-primary/90 border-[0.5px] border-white/25 shadow-md ring-1 shadow-black/20 ring-(--ring-color) [--ring-color:color-mix(in_oklab,var(--color-foreground)15%,var(--color-primary))]'
                         )}
                       >

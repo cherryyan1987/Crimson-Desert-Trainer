@@ -5,6 +5,8 @@ import { MetadataRoute } from 'next';
 import { envConfigs } from '@/config';
 import { defaultLocale, locales } from '@/config/locale';
 
+const EXCLUDED_PAGE_SLUGS = new Set(['blog', 'updates', 'showcases', 'pricing']);
+
 function getDynamicPageSlugs() {
   const pagesDir = path.join(process.cwd(), 'src/config/locale/messages/en/pages');
 
@@ -12,6 +14,7 @@ function getDynamicPageSlugs() {
     return readdirSync(pagesDir)
       .filter((file) => file.endsWith('.json'))
       .map((file) => file.replace(/\.json$/, ''))
+      .filter((slug) => !EXCLUDED_PAGE_SLUGS.has(slug))
       .sort();
   } catch {
     return [];

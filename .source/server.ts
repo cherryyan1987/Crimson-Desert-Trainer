@@ -1,10 +1,6 @@
 // @ts-nocheck
-import * as __fd_glob_11 from "../content/posts/what-is-xxx.zh.mdx?collection=posts"
-import * as __fd_glob_10 from "../content/posts/what-is-xxx.mdx?collection=posts"
-import * as __fd_glob_9 from "../content/pages/terms-of-service.zh.mdx?collection=pages"
-import * as __fd_glob_8 from "../content/pages/terms-of-service.mdx?collection=pages"
-import * as __fd_glob_7 from "../content/pages/privacy-policy.zh.mdx?collection=pages"
-import * as __fd_glob_6 from "../content/pages/privacy-policy.mdx?collection=pages"
+import * as __fd_glob_7 from "../content/posts/what-is-xxx.zh.mdx?collection=posts"
+import * as __fd_glob_6 from "../content/posts/what-is-xxx.mdx?collection=posts"
 import * as __fd_glob_5 from "../content/logs/v2.0.zh.mdx?collection=logs"
 import * as __fd_glob_4 from "../content/logs/v2.0.mdx?collection=logs"
 import * as __fd_glob_3 from "../content/logs/v1.0.zh.mdx?collection=logs"
@@ -23,6 +19,6 @@ export const docs = await create.docs("docs", "content/docs", {}, {"index.mdx": 
 
 export const logs = await create.docs("logs", "content/logs", {}, {"v1.0.mdx": __fd_glob_2, "v1.0.zh.mdx": __fd_glob_3, "v2.0.mdx": __fd_glob_4, "v2.0.zh.mdx": __fd_glob_5, });
 
-export const pages = await create.docs("pages", "content/pages", {}, {"privacy-policy.mdx": __fd_glob_6, "privacy-policy.zh.mdx": __fd_glob_7, "terms-of-service.mdx": __fd_glob_8, "terms-of-service.zh.mdx": __fd_glob_9, });
+export const pages = await create.docs("pages", "content/pages", {}, {});
 
-export const posts = await create.docs("posts", "content/posts", {}, {"what-is-xxx.mdx": __fd_glob_10, "what-is-xxx.zh.mdx": __fd_glob_11, });
+export const posts = await create.docs("posts", "content/posts", {}, {"what-is-xxx.mdx": __fd_glob_6, "what-is-xxx.zh.mdx": __fd_glob_7, });
