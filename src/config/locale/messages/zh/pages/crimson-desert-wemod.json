@@ -55,7 +55,7 @@
           }
         ],
         "image": {
-          "src": "/imgs/wemod/crimson-desert-wemod.jpg",
+          "src": "/customize.c930f4dd.webp",
           "alt": "Crimson Desert WeMod 界面和功能",
           "width": 1200,
           "height": 800
@@ -203,6 +203,12 @@
             "url": "/download",
             "target": "_self",
             "variant": "default"
+          },
+          {
+            "title": "修改器无法工作？",
+            "url": "/crimson-desert-trainer-not-working",
+            "target": "_self",
+            "variant": "outline"
           }
         ],
         "className": "bg-muted"

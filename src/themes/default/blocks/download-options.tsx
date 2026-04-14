@@ -51,18 +51,18 @@ export function DownloadOptions({
                   className={cn(
                     'grid gap-8',
                     item.image?.src &&
-                      'lg:grid-cols-[320px_minmax(0,1fr)] lg:items-center'
+                      'lg:grid-cols-[minmax(360px,0.95fr)_minmax(0,1.05fr)] lg:items-center'
                   )}
                 >
                   {item.image?.src && (
-                    <div className="overflow-hidden rounded-2xl border border-[#dcc8b6] bg-[linear-gradient(180deg,rgba(255,255,255,0.96),rgba(248,239,231,0.88))] p-3 shadow-lg shadow-[#1b1008]/8">
+                    <div className="overflow-hidden rounded-2xl bg-transparent shadow-lg shadow-[#1b1008]/8">
                       <Image
                         src={item.image.src}
                         alt={item.image.alt || item.title || ''}
                         width={item.image.width || 1588}
                         height={item.image.height || 1160}
-                        className="h-full w-full rounded-xl object-cover"
-                        sizes="(max-width: 1024px) 100vw, 320px"
+                        className="h-full w-full rounded-2xl object-cover"
+                        sizes="(max-width: 1024px) 100vw, 42vw"
                         unoptimized={item.image.src.startsWith('http')}
                       />
                     </div>

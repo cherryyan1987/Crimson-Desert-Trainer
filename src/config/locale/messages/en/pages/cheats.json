@@ -126,6 +126,12 @@
             "url": "/download",
             "target": "_self",
             "variant": "default"
+          },
+          {
+            "title": "Fix Trainer Issues",
+            "url": "/crimson-desert-trainer-not-working",
+            "target": "_self",
+            "variant": "outline"
           }
         ],
         "className": "bg-muted/40"

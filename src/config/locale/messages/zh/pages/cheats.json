@@ -126,6 +126,12 @@
             "url": "/download",
             "target": "_self",
             "variant": "default"
+          },
+          {
+            "title": "修复修改器问题",
+            "url": "/crimson-desert-trainer-not-working",
+            "target": "_self",
+            "variant": "outline"
           }
         ],
         "className": "bg-muted/40"

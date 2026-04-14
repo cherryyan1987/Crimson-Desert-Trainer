@@ -197,6 +197,12 @@
             "url": "/download",
             "target": "_self",
             "variant": "default"
+          },
+          {
+            "title": "Trainer Not Working?",
+            "url": "/crimson-desert-trainer-not-working",
+            "target": "_self",
+            "variant": "outline"
           }
         ]
       },

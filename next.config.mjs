@@ -29,7 +29,18 @@ const nextConfig = {
     ],
   },
   async redirects() {
-    return [];
+    return [
+      {
+        source: '/terms-of-service',
+        destination: '/terms-of-use',
+        permanent: true,
+      },
+      {
+        source: '/zh/terms-of-service',
+        destination: '/zh/terms-of-use',
+        permanent: true,
+      },
+    ];
   },
   async headers() {
     return [

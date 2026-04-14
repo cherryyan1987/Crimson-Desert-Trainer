@@ -59,7 +59,7 @@
                 "title": "更新较频繁"
               }
             ],
-            "text": "Download from Official Source",
+            "text": "前往官方来源下载",
             "url": "https://flingtrainer.com/trainer/crimson-desert-trainer/",
             "target": "_blank",
             "variant": "default",
@@ -93,8 +93,8 @@
                 "title": "需要安装程序并注册账号"
               }
             ],
-            "text": "Open WeMod Option",
-            "url": "https://www.wemod.com/",
+            "text": "打开 WeMod 页面",
+            "url": "https://www.wemod.com/cheats/crimson-desert-trainers",
             "target": "_blank",
             "variant": "outline"
           }
@@ -193,10 +193,16 @@
         "description": "从上面的方案中选择最适合你的一个，然后按照安装步骤开始使用 Crimson Desert 修改器。",
         "buttons": [
           {
-            "title": "Go to Recommended Download",
+            "title": "前往推荐下载",
             "url": "#primary",
             "target": "_self",
             "variant": "default"
+          },
+          {
+            "title": "修改器无法工作？",
+            "url": "/crimson-desert-trainer-not-working",
+            "target": "_self",
+            "variant": "outline"
           }
         ],
         "className": "bg-muted/40"

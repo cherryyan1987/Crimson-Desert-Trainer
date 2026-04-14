@@ -76,6 +76,12 @@
           {
             "title": "WeMod",
             "description": "WeMod is a trainer platform that provides a simplified interface for enabling cheats. It is suitable for users who prefer a guided setup instead of manual trainer files.",
+            "image": {
+              "src": "/wemod.webp",
+              "alt": "WeMod app interface preview",
+              "width": 2400,
+              "height": 1360
+            },
             "items": [
               {
                 "title": "Beginner-friendly interface"
@@ -88,7 +94,7 @@
               }
             ],
             "text": "Open WeMod Option",
-            "url": "https://www.wemod.com/",
+            "url": "https://www.wemod.com/cheats/crimson-desert-trainers",
             "target": "_blank",
             "variant": "outline"
           }
@@ -191,6 +197,12 @@
             "url": "#primary",
             "target": "_self",
             "variant": "default"
+          },
+          {
+            "title": "Trainer Not Working?",
+            "url": "/crimson-desert-trainer-not-working",
+            "target": "_self",
+            "variant": "outline"
           }
         ],
         "className": "bg-muted/40"
