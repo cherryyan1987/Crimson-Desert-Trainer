@@ -1,0 +1,1 @@
+# Crimson-Desert-Trainer-Guide-Hub
