@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 import type { Translations } from 'fumadocs-ui/i18n';
 import { DocsLayout } from 'fumadocs-ui/layouts/notebook';
-import { RootProvider } from 'fumadocs-ui/provider';
+import { RootProvider } from 'fumadocs-ui/provider/next';
 
 import { source } from '@/core/docs/source';
 

@@ -62,14 +62,18 @@ export class StripeProvider implements PaymentProvider {
       // create payment with dynamic product
 
       // build price data
-      const priceData: Stripe.Checkout.SessionCreateParams.LineItem.PriceData =
-        {
-          currency: order.price.currency,
-          unit_amount: order.price.amount, // unit: cents
-          product_data: {
-            name: order.description || '',
-          },
-        };
+      type StripeLineItem = NonNullable<
+        Stripe.Checkout.SessionCreateParams['line_items']
+      >[number];
+      type StripePriceData = NonNullable<StripeLineItem['price_data']>;
+
+      const priceData: StripePriceData = {
+        currency: order.price.currency,
+        unit_amount: order.price.amount, // unit: cents
+        product_data: {
+          name: order.description || '',
+        },
+      };
 
       if (order.type === PaymentType.SUBSCRIPTION) {
         // create subscription payment
@@ -82,7 +86,7 @@ export class StripeProvider implements PaymentProvider {
         // build recurring data
         priceData.recurring = {
           interval: order.plan
-            .interval as Stripe.Checkout.SessionCreateParams.LineItem.PriceData.Recurring.Interval,
+            .interval as NonNullable<StripePriceData['recurring']>['interval'],
         };
       } else {
         // create one-time payment

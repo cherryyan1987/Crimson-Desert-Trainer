@@ -1,10 +1,5 @@
 import '@/config/style/global.css';
 
-import {
-  Cormorant_Garamond,
-  JetBrains_Mono,
-  Manrope,
-} from 'next/font/google';
 import { getLocale, setRequestLocale } from 'next-intl/server';
 import NextTopLoader from 'nextjs-toploader';
 
@@ -16,28 +11,6 @@ import { getAdsService } from '@/shared/services/ads';
 import { getAffiliateService } from '@/shared/services/affiliate';
 import { getAnalyticsService } from '@/shared/services/analytics';
 import { getCustomerService } from '@/shared/services/customer_service';
-
-const manrope = Manrope({
-  subsets: ['latin'],
-  variable: '--font-sans',
-  display: 'swap',
-  preload: true,
-});
-
-const cormorant = Cormorant_Garamond({
-  subsets: ['latin'],
-  weight: ['500', '600', '700'],
-  variable: '--font-serif',
-  display: 'swap',
-  preload: true,
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  subsets: ['latin'],
-  variable: '--font-mono',
-  display: 'swap',
-  preload: true,
-});
 
 export default async function RootLayout({
   children,
@@ -108,7 +81,6 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className={`${manrope.variable} ${cormorant.variable} ${jetbrainsMono.variable}`}
       suppressHydrationWarning
     >
       <head>
