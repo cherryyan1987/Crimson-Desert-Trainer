@@ -25,3 +25,20 @@ export * from './pricing';
 export * from './blog';
 export * from './blog-detail';
 export * from './page-detail';
+
+// Trainer-specific blocks
+export * from './quick-info';
+export * from './features-overview';
+export * from './how-to-use';
+export * from './safety';
+export * from './troubleshooting';
+export * from './latest-updates';
+export * from './alternatives';
+export * from './download-options';
+export * from './text-section';
+export * from './quick-checklist';
+export * from './issue-solutions';
+
+// WeMod comparison blocks
+export * from './comparison-table';
+export * from './choice-section';

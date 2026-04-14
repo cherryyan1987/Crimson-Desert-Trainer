@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "title": "Crimson Desert Cheats – Full List, Trainer Features & How to Use",
+    "description": "查看 Crimson Desert 常见 cheats，包括无限生命、金钱、伤害和速度控制，并了解如何在 PC 上相对安全地使用 trainer cheats。",
+    "keywords": "crimson desert cheats, crimson desert cheat codes, crimson desert trainer cheats, how to cheat in crimson desert"
+  },
+  "page": {
+    "title": "Crimson Desert Cheats – 完整功能列表与 Trainer 使用说明",
+    "description": "想找 Crimson Desert cheats？这个页面会介绍最常见的作弊功能、它们的作用方式，以及如何通过 PC 上的 trainer 工具来启用这些功能。",
+    "show_sections": [
+      "hero",
+      "what-are-cheats",
+      "cheat-list",
+      "how-to-use",
+      "access-cheats",
+      "safety",
+      "cheats-vs-trainer",
+      "faq",
+      "bottom-cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Crimson Desert Cheats – 完整功能列表与 Trainer 使用说明",
+        "description": "想找 Crimson Desert cheats？这个页面会介绍最常见的作弊功能、它们的作用方式，以及如何通过 PC 上的 trainer 工具来启用这些功能。",
+        "tip": "这页不只是罗列功能名，还会解释每个选项大致做什么、什么时候会用到，以及如何更稳妥地启用它们。",
+        "buttons": [
+          {
+            "title": "打开 Trainer 下载选项",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "返回首页",
+            "url": "/",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ]
+      },
+      "what-are-cheats": {
+        "id": "what-are-cheats",
+        "block": "text-section",
+        "title": "什么是 Crimson Desert Cheats？",
+        "description": "Crimson Desert cheats 指的是对游戏机制进行调整的一类作弊效果，例如生命值、体力、伤害、金钱或时间控制。这些功能通常不是通过游戏内置作弊码实现，而是借助 trainer 工具激活。",
+        "extended_description": "对大多数 PC 玩家来说，使用外部 trainer 启用这些功能是更常见的方式，因为游戏本身通常不提供传统的 cheat code 输入系统。"
+      },
+      "cheat-list": {
+        "id": "cheat-list",
+        "block": "features-overview",
+        "title": "Crimson Desert Cheats 完整列表",
+        "description": "下面这些是 PC 玩家最常搜索、也最常见于 trainer 中的 Crimson Desert cheats 选项。",
+        "feature_categories": [
+          {
+            "title": "角色与生存类 Cheats",
+            "items": [
+              "Unlimited Health",
+              "Unlimited Stamina",
+              "Unlimited Spirit",
+              "Edit Max Health",
+              "Edit Max Stamina",
+              "Edit Max Spirit",
+              "Edit Defense"
+            ]
+          },
+          {
+            "title": "战斗类 Cheats",
+            "items": [
+              "Super Damage",
+              "One-Hit Kill",
+              "No Skill Cooldown"
+            ]
+          },
+          {
+            "title": "金钱与物品类 Cheats",
+            "items": [
+              "Edit Money Amount",
+              "Unlimited Items",
+              "Modify Inventory Quantity"
+            ]
+          },
+          {
+            "title": "世界与玩法类 Cheats",
+            "items": [
+              "Game Speed Control",
+              "Movement Speed Multiplier",
+              "Freeze Time",
+              "Advance Time by Hour"
+            ]
+          }
+        ],
+        "className": "bg-muted/40"
+      },
+      "how-to-use": {
+        "id": "how-to-use",
+        "title": "如何在 Crimson Desert 中使用 Cheats",
+        "description": "由于 Crimson Desert 通常不提供内置 cheat codes，玩家一般会通过 trainer 工具来启用 cheats。",
+        "steps": [
+          {
+            "title": "打开一个 trainer 工具",
+            "description": "在进入游戏前或同时启动一个兼容的 trainer。"
+          },
+          {
+            "title": "启动游戏",
+            "description": "运行 Crimson Desert，并等待当前游戏进程加载完成。"
+          },
+          {
+            "title": "通过热键启用需要的 cheats",
+            "description": "使用 trainer 界面或快捷键开启想要的功能。"
+          },
+          {
+            "title": "调整生命、金钱或速度等数值",
+            "description": "有些 trainer 不只是开关，还支持直接修改数值。"
+          }
+        ],
+        "note": "不同 trainer 的热键可能不同，使用前请先查看工具自带说明。"
+      },
+      "access-cheats": {
+        "id": "access-cheats",
+        "title": "如何获取这些 Cheats",
+        "description": "如果你想使用这些 cheats，就需要一个兼容的 trainer。大多数玩家会选择支持多项功能的一体化 trainer 版本。",
+        "buttons": [
+          {
+            "title": "打开 Trainer 下载选项",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
+        "className": "bg-muted/40"
+      },
+      "safety": {
+        "id": "safety",
+        "title": "Cheats 使用安全吗？",
+        "description": "在离线或单人环境中使用 cheats 通常风险更低，但由于它们会与游戏内存交互，仍可能触发杀毒软件警告。",
+        "safety_tips": [
+          {
+            "title": "只在离线模式中使用 cheats"
+          },
+          {
+            "title": "从可信来源下载"
+          },
+          {
+            "title": "确认版本兼容性"
+          }
+        ]
+      },
+      "cheats-vs-trainer": {
+        "id": "cheats-vs-trainer",
+        "block": "text-section",
+        "title": "Cheats 和 Trainer 有什么区别？",
+        "description": "Cheats 指的是功能效果本身，例如无限生命或无限金钱；Trainer 则是你在游戏中启用这些效果的工具。",
+        "extended_description": "在大多数情况下，玩家会通过一个 trainer 同时启用多项 cheats。",
+        "buttons": [
+          {
+            "title": "访问首页总览",
+            "url": "/",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Crimson Desert Cheats 常见问题",
+        "items": [
+          {
+            "question": "Crimson Desert 有内置 cheat codes 吗？",
+            "answer": "通常没有传统意义上的作弊码。大多数 cheats 都是通过 trainer 工具启用的。"
+          },
+          {
+            "question": "游戏更新后 cheats 还会有效吗？",
+            "answer": "游戏更新后 cheats 可能失效，这时通常需要等待对应的新 trainer 版本。"
+          },
+          {
+            "question": "使用 cheats 会被封号吗？",
+            "answer": "这类功能更适合离线模式。不要在在线模式中使用。"
+          },
+          {
+            "question": "为什么有些 cheats 不生效？",
+            "answer": "最常见原因是 trainer 版本和当前游戏版本不匹配。"
+          }
+        ]
+      },
+      "bottom-cta": {
+        "id": "bottom-cta",
+        "title": "准备开始使用 Crimson Desert Cheats？",
+        "description": "查看最新 trainer 选项，并按照正确的设置流程开始使用这些功能。",
+        "buttons": [
+          {
+            "title": "前往下载页",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
+        "className": "bg-muted/40"
+      }
+    }
+  }
+}

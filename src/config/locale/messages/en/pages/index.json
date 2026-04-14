@@ -1,424 +1,323 @@
 {
   "page": {
+    "title": "Crimson Desert Trainer – Free Cheats, Download & Full Guide",
+    "description": "Download the latest Crimson Desert trainer with cheat features, version support, setup steps, safety tips, and troubleshooting help for PC players.",
     "show_sections": [
       "hero",
-      "logos",
-      "introduce",
-      "benefits",
-      "usage",
-      "features",
-      "stats",
-      "testimonials",
+      "quick-info",
+      "what-is-trainer",
+      "features-overview",
+      "download-cta",
+      "how-to-use",
+      "safety",
+      "troubleshooting",
+      "latest-updates",
+      "alternatives",
       "faq",
-      "cta"
+      "bottom-cta"
     ],
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "Ship AI Startups in hours, not days",
-        "highlight_text": "in hours",
-        "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups.<br/>Ship Fast with a variety of templates and components.",
-        "announcement": {
-          "badge": "New",
-          "title": "🎉 ShipAny Template Two",
-          "url": "/pricing"
-        },
-        "tip": "🎁 Special offer for the first 1000 users",
+        "variant": "immersive",
+        "label": "PC SINGLE-PLAYER TRAINER GUIDE",
+        "highlight_text": "Trainer",
+        "title": "Crimson Desert Trainer – Free Cheats, Download & Full Guide",
+        "description": "Looking for a working Crimson Desert trainer? This site covers the latest trainer versions, core cheat features, download access, setup steps, safety notes, and common fixes for PC players.",
+        "note": "Supports current PC versions and covers major trainer options such as health, stamina, spirit, money, damage, speed, and time controls.",
+        "note_label": "Compatibility Notes",
+        "tip": "A focused landing page for PC players who want the fastest route from feature research to safe download guidance.",
+        "tip_label": "Why This Guide",
         "buttons": [
           {
-            "title": "Get Started",
-            "icon": "Zap",
-            "url": "/pricing",
+            "title": "Download Trainer",
+            "url": "/download",
             "target": "_self",
             "variant": "default"
           },
           {
-            "title": "Read Document",
-            "icon": "BookOpenText",
-            "url": "/docs",
-            "target": "_blank",
+            "title": "View Features",
+            "url": "#features-overview",
+            "target": "_self",
             "variant": "outline"
           }
         ],
-        "show_avatars": true,
-        "avatars_tip": "999+ users are using ShipAny",
-        "show_award": false,
-        "image": {
-          "src": "/imgs/features/admin.png",
-          "alt": "hero",
-          "width": 1200,
-          "height": 800
+        "items": [
+          {
+            "title": "Coverage",
+            "description": "Core health, stamina, spirit and money edits"
+          },
+          {
+            "title": "Best For",
+            "description": "Offline play, experimentation and faster progression"
+          },
+          {
+            "title": "Next Step",
+            "description": "Jump to the download guide when you are ready"
+          }
+        ],
+        "background_video": {
+          "src": "/open.mp4"
         },
-        "image_invert": {
-          "src": "/imgs/features/admin-dark.png",
-          "alt": "hero",
-          "width": 1200,
-          "height": 800
-        },
-        "background_image": {
-          "src": "/imgs/bg/tree.jpg",
-          "alt": "hero"
+        "image": null
+      },
+      "quick-info": {
+        "id": "quick-info",
+        "block": "quick-info",
+        "title": "Quick Information",
+        "className": "relative z-20 -mt-10 md:-mt-16",
+        "items": [
+          {
+            "title": "Game",
+            "description": "Crimson Desert"
+          },
+          {
+            "title": "Platform",
+            "description": "PC"
+          },
+          {
+            "title": "Content",
+            "description": "Trainer, Cheats, Guide"
+          },
+          {
+            "title": "Use Case",
+            "description": "Offline Single-Player Support"
+          }
+        ]
+      },
+      "what-is-trainer": {
+        "id": "what-is-trainer",
+        "block": "text-section",
+        "title": "What Is the Crimson Desert Trainer?",
+        "description": "A Crimson Desert trainer is a PC tool that adds optional cheat-style gameplay adjustments, such as unlimited health, stamina control, spirit edits, damage boosts, resource changes, and speed settings. It is commonly used by players who want to experiment, reduce grind, test builds, or replay sections with more freedom.",
+        "extended_description": "This homepage is designed as a central guide. Instead of only showing a download button, it explains what the trainer does, which features players usually look for, how to use it, and what to check if the trainer is not working.",
+        "className": "pt-8 md:pt-12"
+      },
+      "features-overview": {
+        "id": "features-overview",
+        "block": "features-overview",
+        "title": "Popular Trainer Features and Cheats",
+        "description": "The most requested Crimson Desert trainer options usually focus on survival, resources, movement, and convenience. Common features include:",
+        "feature_categories": [
+          {
+            "title": "Character Stats",
+            "items": [
+              "Unlimited Health",
+              "Unlimited Stamina",
+              "Unlimited Spirit",
+              "Edit Max Health",
+              "Edit Max Stamina",
+              "Edit Max Spirit",
+              "Edit Defense"
+            ]
+          },
+          {
+            "title": "Combat and Damage",
+            "items": [
+              "Super Damage",
+              "One-Hit Kills",
+              "Arrow and Item Usage Support"
+            ]
+          },
+          {
+            "title": "Items and Money",
+            "items": [
+              "Edit Selected Item Amount",
+              "Edit Money Amount",
+              "Inventory Quantity Control"
+            ]
+          },
+          {
+            "title": "World and Time",
+            "items": [
+              "Game Speed Control",
+              "Freeze Daytime",
+              "Advance Time by 1 Hour",
+              "Movement Adjustments"
+            ]
+          }
+        ]
+      },
+      "download-cta": {
+        "id": "download-cta",
+        "block": "cta",
+        "title": "Download Crimson Desert Trainer",
+        "description": "Access the latest trainer page, version details, and setup instructions in one place.",
+        "buttons": [
+          {
+            "title": "Go to Download Page",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          }
+        ]
+      },
+      "how-to-use": {
+        "id": "how-to-use",
+        "block": "how-to-use",
+        "title": "How to Use the Trainer",
+        "description": "Follow these steps to get started with the Crimson Desert trainer:",
+        "steps": [
+          {
+            "title": "Download the trainer file from the download page.",
+            "description": "Get the latest version from our dedicated download section."
+          },
+          {
+            "title": "Extract the archive to a folder on your PC.",
+            "description": "Use any file extraction software to unzip the downloaded file."
+          },
+          {
+            "title": "Run the trainer as administrator.",
+            "description": "Right-click the trainer executable and select 'Run as administrator'."
+          },
+          {
+            "title": "Launch Crimson Desert.",
+            "description": "Start the game and wait for it to fully load."
+          },
+          {
+            "title": "Enable features with the listed hotkeys or toggles.",
+            "description": "Use the trainer interface to activate desired cheats."
+          },
+          {
+            "title": "Check that the trainer version matches your game version if a feature does not work.",
+            "description": "Compatibility is crucial for proper functionality."
+          }
+        ],
+        "note": "For best results, use the trainer in offline or single-player situations only, and always check the version notes before launching."
+      },
+      "safety": {
+        "id": "safety",
+        "block": "safety",
+        "title": "Is Crimson Desert Trainer Safe?",
+        "description": "Trainers often trigger antivirus warnings because they interact with game memory. In many cases, these detections are caused by the behavior of the tool rather than confirmed malicious activity. Even so, users should always be cautious and verify what they download.",
+        "safety_tips": [
+          {
+            "title": "Download only from trusted sources"
+          },
+          {
+            "title": "Scan files before opening them"
+          },
+          {
+            "title": "Use the trainer only with the correct game version"
+          },
+          {
+            "title": "Avoid using trainers in online or competitive environments"
+          }
+        ],
+        "note": "This site also provides basic setup notes and troubleshooting guidance so users understand what to expect before running the trainer."
+      },
+      "troubleshooting": {
+        "id": "troubleshooting",
+        "block": "troubleshooting",
+        "title": "Trainer Not Working?",
+        "description": "If the trainer does not launch or some cheats fail to activate, the issue is usually caused by one of the following:",
+        "issues": [
+          {
+            "title": "The trainer version does not match the installed game version"
+          },
+          {
+            "title": "The trainer was not launched with administrator privileges"
+          },
+          {
+            "title": "Antivirus or security software blocked the file"
+          },
+          {
+            "title": "The game was updated and the trainer has not been refreshed yet"
+          }
+        ],
+        "note": "Visit the full guide and download section for version notes, setup steps, and common fixes.",
+        "link": {
+          "title": "Open Download and Setup Guide",
+          "url": "/download"
         }
       },
-      "logos": {
-        "id": "logos",
-        "title": "ShipAny is built on the shoulders of giants",
-        "items": [
+      "latest-updates": {
+        "id": "latest-updates",
+        "block": "latest-updates",
+        "title": "Latest Trainer Updates",
+        "description": "Stay informed about the latest developments:",
+        "updates": [
           {
-            "title": "Next.js",
-            "image": {
-              "src": "/imgs/logos/nextjs.svg",
-              "alt": "Next.js"
-            }
+            "title": "Support notes for current Crimson Desert PC versions"
           },
           {
-            "title": "React",
-            "image": {
-              "src": "/imgs/logos/react.svg",
-              "alt": "React"
-            }
+            "title": "Expanded feature coverage for stats, damage, money, and time control"
           },
           {
-            "title": "TailwindCSS",
-            "image": {
-              "src": "/imgs/logos/tailwindcss.svg",
-              "alt": "TailwindCSS"
-            }
-          },
-          {
-            "title": "Shadcn/UI",
-            "image": {
-              "src": "/imgs/logos/shadcn.svg",
-              "alt": "Shadcn/UI"
-            }
-          },
-          {
-            "title": "Vercel",
-            "image": {
-              "src": "/imgs/logos/vercel.svg",
-              "alt": "Vercel"
-            }
-          }
-        ]
-      },
-      "introduce": {
-        "block": "features-list",
-        "id": "introduce",
-        "title": "What is ShipAny",
-        "label": "Introduce",
-        "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups, including templates, components, and documentation.",
-        "image": {
-          "src": "/imgs/features/landing-page.png",
-          "alt": "introduce"
-        },
-        "items": [
-          {
-            "title": "Ready-to-use Templates",
-            "description": "Choose from dozens of production-ready AI SaaS templates to quickly start your project.",
-            "icon": "RiNextjsFill",
-            "image": {
-              "src": "/imgs/features/1.png",
-              "alt": "introduce"
-            }
-          },
-          {
-            "title": "Infrastructure Setup",
-            "description": "Get instant access to scalable infrastructure with best practices built-in.",
-            "icon": "RiDatabase2Line",
-            "image": {
-              "src": "/imgs/features/2.png",
-              "alt": "introduce"
-            }
-          },
-          {
-            "title": "Quick Deployment",
-            "description": "Deploy your AI SaaS application to production in hours, not days.",
-            "icon": "RiCloudyFill",
-            "image": {
-              "src": "/imgs/features/3.png",
-              "alt": "introduce"
-            }
-          },
-          {
-            "title": "AI Integration",
-            "description": "Integrate AI into your project with ease using our built-in AI SDK.",
-            "icon": "RiRobot2Line",
-            "image": {
-              "src": "/imgs/features/4.png",
-              "alt": "introduce"
-            }
+            "title": "Ongoing compatibility checks for major PC distribution versions"
           }
         ],
-        "className": "bg-muted"
+        "note": "For the latest trainer availability and version-specific details, use the dedicated download page."
       },
-      "benefits": {
-        "block": "features-accordion",
-        "id": "benefits",
-        "title": "Why Choose ShipAny",
-        "label": "Benefits",
-        "description": "Get everything you need to launch your AI startup - from ready-to-use templates to technical support.",
-        "items": [
+      "alternatives": {
+        "id": "alternatives",
+        "block": "alternatives",
+        "title": "Trainer Alternatives",
+        "description": "Some players prefer other ways to customize gameplay. Depending on what you need, you may also look into:",
+        "alternatives": [
           {
-            "title": "Complete Framework",
-            "description": "Built on Next.js with authentication, payments, and AI integration - everything works out of the box.",
-            "icon": "RiNextjsFill",
-            "image": {
-              "src": "/imgs/features/user-billing.png",
-              "alt": "benefits"
-            }
+            "title": "Cheat-style trainer apps"
           },
           {
-            "title": "Rich Templates Library",
-            "description": "Choose from various AI SaaS templates to kickstart your project - chatbots, image generation, and more.",
-            "icon": "RiClapperboardAiLine",
-            "image": {
-              "src": "/imgs/features/admin-settings.png",
-              "alt": "benefits"
-            }
+            "title": "Standalone PC trainer builds"
           },
           {
-            "title": "Technical Guidance",
-            "description": "Get dedicated support and join our developer community to ensure your successful launch.",
-            "icon": "RiCodeFill",
-            "image": {
-              "src": "/imgs/features/landing-page.png",
-              "alt": "benefits"
-            }
-          }
-        ]
-      },
-      "usage": {
-        "block": "features-step",
-        "id": "usage",
-        "title": "How to Launch with ShipAny",
-        "description": "Get your AI SaaS startup running in three simple steps:",
-        "image": {
-          "src": "/imgs/features/1.png",
-          "alt": "usage"
-        },
-        "image_position": "left",
-        "text_align": "center",
-        "items": [
-          {
-            "title": "Get ShipAny",
-            "description": "Buy ShipAny with a one-time payment. Check your email for the code and documentation.",
-            "image": {
-              "src": "/imgs/features/5.png",
-              "alt": "usage"
-            }
+            "title": "Game mods and utility tools"
           },
           {
-            "title": "Start Your Project",
-            "description": "Read the documentation and clone the code of ShipAny. Start building your AI SaaS startup.",
-            "image": {
-              "src": "/imgs/features/6.png",
-              "alt": "usage"
-            }
-          },
-          {
-            "title": "Customize Your Project",
-            "description": "Modify the template with your data and contents. Specific AI functionality needs.",
-            "image": {
-              "src": "/imgs/features/7.png",
-              "alt": "usage"
-            }
-          },
-          {
-            "title": "Deploy to Production",
-            "description": "Deploy your project to production with a few steps and start serving customers immediately.",
-            "image": {
-              "src": "/imgs/features/8.png",
-              "alt": "usage"
-            }
-          }
-        ],
-        "className": "bg-muted"
-      },
-      "features": {
-        "id": "features",
-        "title": "Key Features of ShipAny",
-        "description": "Everything you need to launch your AI SaaS startup quickly and efficiently.",
-        "items": [
-          {
-            "title": "Next.js Boilerplate",
-            "description": "Production-ready Next.js templates with SEO-friendly structure and i18n support.",
-            "icon": "RiNextjsFill"
-          },
-          {
-            "title": "Authentication & Payments",
-            "description": "Integrated Google OAuth, one-tap login, and Stripe payment processing.",
-            "icon": "RiKey2Fill"
-          },
-          {
-            "title": "Data Infrastructure",
-            "description": "Built-in Supabase integration for reliable and scalable data storage.",
-            "icon": "RiDatabase2Line"
-          },
-          {
-            "title": "One-Click Deployment",
-            "description": "Seamless deployment to Vercel or Cloudflare with automated setup.",
-            "icon": "RiCloudy2Fill"
-          },
-          {
-            "title": "Business Analytics",
-            "description": "Integrated Google Analytics and Search Console for tracking growth.",
-            "icon": "RiBarChart2Line"
-          },
-          {
-            "title": "AI-Ready Infrastructure",
-            "description": "Pre-configured AI integration with built-in credits system and API sales.",
-            "icon": "RiRobot2Line"
-          }
-        ]
-      },
-      "stats": {
-        "id": "stats",
-        "title": "People Love ShipAny",
-        "description": "for it's easy to use and fast to ship.",
-        "items": [
-          {
-            "title": "999+",
-            "description": "Customers"
-          },
-          {
-            "title": "200+",
-            "description": "Blocks"
-          },
-          {
-            "title": "50+",
-            "description": "Templates"
-          }
-        ],
-        "className": "bg-muted"
-      },
-      "testimonials": {
-        "id": "testimonials",
-        "title": "What Users Say About ShipAny",
-        "description": "Hear from developers and founders who launched their AI startups with ShipAny.",
-        "items": [
-          {
-            "name": "David Chen",
-            "role": "Founder of AIWallpaper.shop",
-            "quote": "ShipAny saved us months of development time. We launched our AI wallpaper business in just 2 days and got our first paying customer within a week!",
-            "image": {
-              "src": "/imgs/avatars/1.png",
-              "alt": "david"
-            }
-          },
-          {
-            "name": "Rachel Kim",
-            "role": "CTO at HeyBeauty.ai",
-            "quote": "The pre-built AI infrastructure is a game-changer. We didn't have to worry about architecture - just focused on our AI beauty tech and went live fast.",
-            "image": {
-              "src": "/imgs/avatars/2.png",
-              "alt": "rachel"
-            }
-          },
-          {
-            "name": "Marcus Thompson",
-            "role": "Solo Developer",
-            "quote": "As a solo developer, ShipAny gave me everything I needed - auth, payments, AI integration, and beautiful UI. Launched my SaaS in a weekend!",
-            "image": {
-              "src": "/imgs/avatars/3.png",
-              "alt": "marcus"
-            }
-          },
-          {
-            "name": "Sofia Garcia",
-            "role": "CEO of Melodisco",
-            "quote": "The templates are production-ready and highly customizable. We built our AI music platform in hours instead of months. Incredible time-to-market!",
-            "image": {
-              "src": "/imgs/avatars/4.png",
-              "alt": "sofia"
-            }
-          },
-          {
-            "name": "James Wilson",
-            "role": "Tech Lead at GPTs.works",
-            "quote": "ShipAny's infrastructure is rock-solid. We scaled from 0 to 10k users without touching the backend. Best investment for our AI startup.",
-            "image": {
-              "src": "/imgs/avatars/5.png",
-              "alt": "james"
-            }
-          },
-          {
-            "name": "Anna Zhang",
-            "role": "Startup Founder",
-            "quote": "From idea to launch in 3 days! ShipAny's templates and deployment tools made it possible to test our AI business concept incredibly fast.",
-            "image": {
-              "src": "/imgs/avatars/6.png",
-              "alt": "anna"
-            }
+            "title": "Save files for specific progression points"
           }
         ]
       },
       "faq": {
         "id": "faq",
-        "title": "Frequently Asked Questions About ShipAny",
-        "description": "Have another question? Contact us on Discord or by email.",
+        "title": "Frequently Asked Questions",
         "items": [
           {
-            "question": "What exactly is ShipAny and how does it work?",
-            "answer": "ShipAny is a comprehensive NextJS boilerplate designed specifically for building AI SaaS startups. It provides ready-to-use templates, infrastructure setup, and deployment tools that help you launch your AI business in hours instead of days."
+            "question": "What does the Crimson Desert trainer do?",
+            "answer": "It provides optional cheat-style controls such as health, stamina, spirit, damage, item, money, and speed adjustments."
           },
           {
-            "question": "Do I need advanced technical skills to use ShipAny?",
-            "answer": "While basic programming knowledge is helpful, ShipAny is designed to be developer-friendly. Our templates and documentation make it easy to get started, even if you're not an expert in AI or cloud infrastructure."
+            "question": "Is this trainer for PC only?",
+            "answer": "This site is focused on PC players and trainer-style tools commonly used with PC versions of the game."
           },
           {
-            "question": "What types of AI SaaS can I build with ShipAny?",
-            "answer": "ShipAny supports a wide range of AI applications, from content generation to data analysis tools. Our templates cover popular use cases like AI chatbots, content generators, image processing apps, and more."
+            "question": "Why is the trainer not working after a game update?",
+            "answer": "Game patches often change compatibility. You may need to wait for a matching trainer update or use the correct older version."
           },
           {
-            "question": "How long does it typically take to launch with ShipAny?",
-            "answer": "With ShipAny, you can have a working prototype in hours and a production-ready application in hours. Our one-click deployment and pre-configured infrastructure significantly reduce the traditional months-long development cycle."
+            "question": "Why does antivirus flag trainers?",
+            "answer": "Trainers modify live game memory, which can trigger heuristic warnings even when the file is not confirmed to be harmful."
           },
           {
-            "question": "What's included in the ShipAny infrastructure?",
-            "answer": "ShipAny provides a complete infrastructure stack including authentication, database setup, API integration, payment processing, and scalable cloud deployment. Everything is pre-configured following industry best practices."
+            "question": "Can I use the trainer in online play?",
+            "answer": "Trainers are generally intended for offline or single-player use only."
           },
           {
-            "question": "Can I customize the templates to match my brand?",
-            "answer": "Absolutely! All ShipAny templates are fully customizable. You can modify the design, features, and functionality to match your brand identity and specific business requirements while maintaining the robust underlying infrastructure."
+            "question": "Where can I download the latest version?",
+            "answer": "Use the dedicated download page for the latest available build, setup notes, and version information."
           }
         ]
       },
-      "cta": {
-        "id": "cta",
-        "title": "Ship your first AI SaaS Startup",
-        "description": "Start from here, ship with ShipAny.",
+      "bottom-cta": {
+        "id": "bottom-cta",
+        "block": "cta",
+        "title": "Need the Download Guide Next?",
+        "description": "Open the dedicated download page for official-source options, setup instructions, and quick troubleshooting tips.",
         "buttons": [
           {
-            "title": "Get ShipAny",
-            "url": "https://shipany.ai",
-            "target": "_blank",
-            "icon": "Zap"
-          },
-          {
-            "title": "Read Document",
-            "url": "/docs",
-            "target": "_blank",
-            "variant": "outline",
-            "icon": "BookOpenText"
+            "title": "Go to Download Page",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
           }
-        ],
-        "className": "bg-muted"
-      },
-      "subscribe": {
-        "id": "subscribe",
-        "title": "Subscribe to our newsletter",
-        "description": "Get the latest news and updates from ShipAny.",
-        "submit": {
-          "input": {
-            "placeholder": "Enter your email"
-          },
-          "button": {
-            "title": "Subscribe"
-          },
-          "action": "/api/subscribe"
-        },
-        "className": "bg-muted"
+        ]
       }
     }
+  },
+  "metadata": {
+    "title": "Crimson Desert Trainer – Free Cheats, Download & Full Guide",
+    "description": "Download the latest Crimson Desert trainer with cheat features, version support, setup steps, safety tips, and troubleshooting help for PC players.",
+    "keywords": "crimson desert trainer, crimson desert cheats, crimson desert trainer download, crimson desert trainer safe, crimson desert trainer not working, crimson desert wemod"
   }
 }

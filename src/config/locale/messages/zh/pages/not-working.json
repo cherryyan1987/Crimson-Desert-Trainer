@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "title": "Crimson Desert Trainer Not Working? Fix Guide (2026)",
+    "description": "如果 Crimson Desert trainer 无法运行，本页提供启动失败、版本不匹配、杀毒拦截和 cheats 不生效的逐步修复指南。",
+    "keywords": "crimson desert trainer not working, trainer not launching, cheats not working, trainer not activating"
+  },
+  "page": {
+    "title": "Crimson Desert Trainer 无法使用？这里是修复方法",
+    "description": "如果你的 Crimson Desert trainer 无法使用、无法启动，或者 cheats 无法激活，这并不少见。大多数问题都和版本不匹配、权限或安全拦截有关。",
+    "show_sections": [
+      "hero",
+      "quick-fix-checklist",
+      "problem-breakdown",
+      "still-not-working",
+      "alternative-options",
+      "faq",
+      "bottom-cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Crimson Desert Trainer 无法使用？这里是修复方法",
+        "description": "如果你的 Crimson Desert trainer 无法使用、无法启动，或者 cheats 无法激活，这并不少见。大多数问题都和版本不匹配、权限或安全拦截有关。",
+        "tip": "这份页面会把最常见的问题和对应修复方法一步一步讲清楚。",
+        "buttons": [
+          {
+            "title": "查看最新 Trainer 选项",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "查看快速修复清单",
+            "url": "#quick-fix-checklist",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ]
+      },
+      "quick-fix-checklist": {
+        "id": "quick-fix-checklist",
+        "block": "quick-checklist",
+        "title": "快速修复清单",
+        "items": [
+          {
+            "title": "以管理员身份运行 trainer"
+          },
+          {
+            "title": "确认游戏版本和 trainer 版本一致"
+          },
+          {
+            "title": "临时关闭杀毒软件或添加白名单"
+          },
+          {
+            "title": "分别测试先开 trainer 或先开游戏"
+          },
+          {
+            "title": "确认 trainer 支持你的平台版本"
+          }
+        ]
+      },
+      "problem-breakdown": {
+        "id": "problem-breakdown",
+        "block": "issue-solutions",
+        "title": "常见问题与修复方法",
+        "items": [
+          {
+            "title": "Trainer 无法启动",
+            "description": "如果 trainer 完全打不开，通常和权限不足或系统拦截有关。",
+            "items": [
+              {
+                "title": "右键选择“以管理员身份运行”"
+              },
+              {
+                "title": "临时关闭杀毒软件"
+              },
+              {
+                "title": "检查下载后的文件是否被系统阻止"
+              }
+            ]
+          },
+          {
+            "title": "Cheats 无法激活或不生效",
+            "description": "如果 trainer 能打开但 cheats 无法生效，最常见原因就是版本不匹配。",
+            "items": [
+              {
+                "title": "确认你的游戏版本和 trainer 版本一致"
+              },
+              {
+                "title": "进入游戏后再激活 cheats"
+              },
+              {
+                "title": "尝试不同热键"
+              }
+            ]
+          },
+          {
+            "title": "游戏更新后 trainer 失效",
+            "description": "游戏更新通常会打破 trainer 的兼容性。如果更新后突然失效，通常需要等待新版本。",
+            "items": [
+              {
+                "title": "检查是否有更新后的 trainer 版本"
+              },
+              {
+                "title": "使用与你当前游戏版本匹配的版本"
+              },
+              {
+                "title": "不要把旧 trainer 和新游戏版本混用"
+              }
+            ]
+          },
+          {
+            "title": "被杀毒软件拦截",
+            "description": "很多 trainer 会因为修改游戏内存而被标记，这很常见，并不总是意味着恶意程序。",
+            "items": [
+              {
+                "title": "将 trainer 添加到杀毒软件白名单"
+              },
+              {
+                "title": "只从可信来源下载"
+              },
+              {
+                "title": "运行前先扫描文件"
+              }
+            ]
+          }
+        ],
+        "className": "bg-muted/40"
+      },
+      "still-not-working": {
+        "id": "still-not-working",
+        "block": "cta",
+        "title": "还是无法使用？",
+        "description": "如果以上方法都无效，最好的解决方案通常是换成兼容版本，或者尝试其他可替代工具。",
+        "buttons": [
+          {
+            "title": "查看最新 Trainer 选项",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          }
+        ]
+      },
+      "alternative-options": {
+        "id": "alternative-options",
+        "block": "alternatives",
+        "title": "替代方案",
+        "description": "如果你现在使用的 trainer 无法工作，也可以尝试其他兼容性不同但功能相近的工具。",
+        "alternatives": [
+          {
+            "title": "带自动更新能力的 trainer 平台"
+          },
+          {
+            "title": "其他 trainer 构建版本"
+          },
+          {
+            "title": "其他基于 cheat 的工具"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "常见问题",
+        "items": [
+          {
+            "question": "为什么我的 trainer 无法工作？",
+            "answer": "大多数问题都来自版本不匹配、杀毒拦截或缺少管理员权限。"
+          },
+          {
+            "question": "游戏更新后 trainer 会失效吗？",
+            "answer": "会，游戏更新后通常需要新的 trainer 版本。"
+          },
+          {
+            "question": "临时关闭杀毒软件安全吗？",
+            "answer": "只建议在可信来源前提下，短时间临时关闭。"
+          },
+          {
+            "question": "我需要重新安装 trainer 吗？",
+            "answer": "有时候重新下载并使用正确版本，确实能解决问题。"
+          }
+        ],
+        "className": "bg-muted/40"
+      },
+      "bottom-cta": {
+        "id": "bottom-cta",
+        "block": "cta",
+        "title": "想要一个能正常工作的 Trainer？",
+        "description": "使用最新兼容版本，通常可以避免大多数问题，并确保 cheats 能正常运行。",
+        "buttons": [
+          {
+            "title": "前往下载页面",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          }
+        ]
+      }
+    }
+  }
+}

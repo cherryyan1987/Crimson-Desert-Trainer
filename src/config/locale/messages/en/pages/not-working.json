@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "title": "Crimson Desert Trainer Not Working? Fix Guide (2026)",
+    "description": "Trainer not working in Crimson Desert? Fix launch errors, version mismatch, antivirus blocks, and cheat issues with this step-by-step guide.",
+    "keywords": "crimson desert trainer not working, trainer not launching, cheats not working, trainer not activating"
+  },
+  "page": {
+    "title": "Crimson Desert Trainer Not Working? Here's How to Fix It",
+    "description": "If your Crimson Desert trainer is not working, not launching, or cheats are not activating, you're not alone. Most issues are caused by version mismatch, permissions, or security blocks.",
+    "show_sections": [
+      "hero",
+      "quick-fix-checklist",
+      "problem-breakdown",
+      "still-not-working",
+      "alternative-options",
+      "faq",
+      "bottom-cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Crimson Desert Trainer Not Working? Here's How to Fix It",
+        "description": "If your Crimson Desert trainer is not working, not launching, or cheats are not activating, you're not alone. Most issues are caused by version mismatch, permissions, or security blocks.",
+        "tip": "This guide walks through the most common problems and how to fix them step by step.",
+        "buttons": [
+          {
+            "title": "Check Latest Trainer Options",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "View Quick Fixes",
+            "url": "#quick-fix-checklist",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ]
+      },
+      "quick-fix-checklist": {
+        "id": "quick-fix-checklist",
+        "block": "quick-checklist",
+        "title": "Quick Fix Checklist",
+        "items": [
+          {
+            "title": "Run the trainer as administrator"
+          },
+          {
+            "title": "Make sure the game version matches the trainer version"
+          },
+          {
+            "title": "Temporarily disable antivirus or add an exception"
+          },
+          {
+            "title": "Launch the trainer before or after the game and test both"
+          },
+          {
+            "title": "Check if the trainer supports your platform version"
+          }
+        ]
+      },
+      "problem-breakdown": {
+        "id": "problem-breakdown",
+        "block": "issue-solutions",
+        "title": "Common Problems and Fixes",
+        "items": [
+          {
+            "title": "Trainer Not Launching",
+            "description": "If the trainer does not open at all, the issue is usually related to permissions or system blocking.",
+            "items": [
+              {
+                "title": "Right-click and select \"Run as administrator\""
+              },
+              {
+                "title": "Disable antivirus temporarily"
+              },
+              {
+                "title": "Check if the file was blocked during download"
+              }
+            ]
+          },
+          {
+            "title": "Cheats Not Working or Not Activating",
+            "description": "If the trainer opens but cheats do not activate, the most common cause is version mismatch.",
+            "items": [
+              {
+                "title": "Make sure your game version matches the trainer version"
+              },
+              {
+                "title": "Activate cheats after entering the game"
+              },
+              {
+                "title": "Try different hotkeys"
+              }
+            ]
+          },
+          {
+            "title": "Trainer Not Working After Game Update",
+            "description": "Game updates often break compatibility with trainers. If your trainer stopped working after an update, you may need to wait for a new version.",
+            "items": [
+              {
+                "title": "Check for updated trainer builds"
+              },
+              {
+                "title": "Use a version that matches your current game"
+              },
+              {
+                "title": "Avoid mixing old trainers with new game versions"
+              }
+            ]
+          },
+          {
+            "title": "Trainer Blocked by Antivirus",
+            "description": "Many trainers are flagged because they modify game memory. This is common behavior and not always a sign of malware.",
+            "items": [
+              {
+                "title": "Add the trainer to antivirus exceptions"
+              },
+              {
+                "title": "Download from trusted sources only"
+              },
+              {
+                "title": "Scan files before running"
+              }
+            ]
+          }
+        ],
+        "className": "bg-muted/40"
+      },
+      "still-not-working": {
+        "id": "still-not-working",
+        "block": "cta",
+        "title": "Still Not Working?",
+        "description": "If none of the fixes above work, the best solution is to use a compatible trainer version or try an alternative tool.",
+        "buttons": [
+          {
+            "title": "Check Latest Trainer Options",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          }
+        ]
+      },
+      "alternative-options": {
+        "id": "alternative-options",
+        "block": "alternatives",
+        "title": "Alternative Options",
+        "description": "If your current trainer is not working, you may also try alternative tools that offer similar features with different compatibility.",
+        "alternatives": [
+          {
+            "title": "Trainer platforms with built-in updates"
+          },
+          {
+            "title": "Different trainer builds"
+          },
+          {
+            "title": "Other cheat-based tools"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "FAQs",
+        "items": [
+          {
+            "question": "Why is my trainer not working?",
+            "answer": "Most issues are caused by version mismatch, antivirus blocking, or missing administrator permissions."
+          },
+          {
+            "question": "Do trainers stop working after updates?",
+            "answer": "Yes, game updates often require updated trainer versions."
+          },
+          {
+            "question": "Is it safe to disable antivirus?",
+            "answer": "Only temporarily and only when using trusted sources."
+          },
+          {
+            "question": "Do I need to reinstall the trainer?",
+            "answer": "Sometimes re-downloading the correct version can fix the issue."
+          }
+        ],
+        "className": "bg-muted/40"
+      },
+      "bottom-cta": {
+        "id": "bottom-cta",
+        "block": "cta",
+        "title": "Need a Working Trainer?",
+        "description": "Use the latest compatible version to avoid most issues and ensure all cheats function correctly.",
+        "buttons": [
+          {
+            "title": "Go to Download Page",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          }
+        ]
+      }
+    }
+  }
+}

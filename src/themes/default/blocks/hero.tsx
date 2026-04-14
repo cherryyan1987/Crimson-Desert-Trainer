@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Sparkles } from 'lucide-react';
 
 import { Link } from '@/core/i18n/navigation';
 import { SmartIcon } from '@/shared/blocks/common';
@@ -18,9 +18,191 @@ export function Hero({
   className?: string;
 }) {
   const highlightText = section.highlight_text ?? '';
+  const immersive = section.variant === 'immersive' || !!section.background_video?.src;
   let texts = null;
   if (highlightText) {
     texts = section.title?.split(highlightText, 2);
+  }
+
+  if (immersive) {
+    return (
+      <section
+        id={section.id}
+        className={cn(
+          'relative isolate overflow-hidden pt-28 pb-20 text-white md:pt-40 md:pb-24',
+          section.className,
+          className
+        )}
+      >
+        <div className="absolute inset-0 -z-20 bg-[#120c0a]" />
+
+        {section.background_video?.src && (
+          <div className="absolute inset-0 -z-10 overflow-hidden">
+            <video
+              className="h-full w-full object-cover"
+              src={section.background_video.src}
+              poster={section.image?.src}
+              autoPlay
+              muted
+              loop
+              playsInline
+            />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(202,122,63,0.24),transparent_36%),radial-gradient(circle_at_right,rgba(255,226,176,0.14),transparent_24%)]" />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/55 to-[#120c0a]" />
+            <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-background" />
+          </div>
+        )}
+
+        <div className="container relative">
+          <div
+            className={cn(
+              'grid gap-12 lg:items-end',
+              section.image?.src
+                ? 'lg:grid-cols-[minmax(0,1.15fr)_minmax(320px,0.85fr)]'
+                : 'lg:grid-cols-1'
+            )}
+          >
+            <div className={cn(section.image?.src ? 'max-w-3xl' : 'mx-auto max-w-5xl text-center')}>
+              {section.label && (
+                <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/8 px-4 py-2 text-xs font-semibold tracking-[0.28em] text-white/80 uppercase backdrop-blur-md">
+                  <Sparkles className="size-3.5" />
+                  <span>{section.label}</span>
+                </div>
+              )}
+
+              {texts && texts.length > 0 ? (
+                <h1 className="font-serif text-5xl leading-none font-semibold text-balance sm:text-6xl lg:text-7xl">
+                  {texts[0]}
+                  <span className="text-[#f0bf85]">{highlightText}</span>
+                  {texts[1]}
+                </h1>
+              ) : (
+                <h1 className="font-serif text-5xl leading-none font-semibold text-balance sm:text-6xl lg:text-7xl">
+                  {section.title}
+                </h1>
+              )}
+
+              <p
+                className={cn(
+                  'mt-6 text-lg leading-8 text-white/78 md:text-xl',
+                  section.image?.src ? 'max-w-2xl' : 'mx-auto max-w-3xl'
+                )}
+                dangerouslySetInnerHTML={{ __html: section.description ?? '' }}
+              />
+
+              {section.buttons && (
+                <div
+                  className={cn(
+                    'mt-8 flex flex-wrap gap-4',
+                    section.image?.src ? '' : 'justify-center'
+                  )}
+                >
+                  {section.buttons.map((button, idx) => (
+                    <Button
+                      asChild
+                      size={button.size || 'default'}
+                      variant={button.variant || 'default'}
+                      className={cn(
+                        'h-11 px-6 text-sm font-semibold',
+                        button.variant === 'outline' &&
+                          'border-white/20 bg-white/8 text-white hover:bg-white/14'
+                      )}
+                      key={idx}
+                    >
+                      <Link
+                        href={button.url ?? ''}
+                        target={button.target ?? '_self'}
+                      >
+                        {button.icon && (
+                          <SmartIcon name={button.icon as string} />
+                        )}
+                        <span>{button.title}</span>
+                      </Link>
+                    </Button>
+                  ))}
+                </div>
+              )}
+
+              <div
+                className={cn(
+                  'mt-8 grid gap-4 sm:grid-cols-2',
+                  section.image?.src ? '' : 'mx-auto max-w-4xl'
+                )}
+              >
+                {section.note && (
+                  <div className="rounded-2xl border border-white/12 bg-black/30 p-5 backdrop-blur-md">
+                    {section.note_label && (
+                      <div className="mb-2 flex items-center gap-2 text-sm font-semibold text-[#f0bf85]">
+                      <ShieldCheck className="size-4" />
+                      <span>{section.note_label}</span>
+                    </div>
+                    )}
+                    <p className="text-sm leading-7 text-white/72">
+                      {section.note}
+                    </p>
+                  </div>
+                )}
+
+                {section.tip && (
+                  <div className="rounded-2xl border border-white/12 bg-white/8 p-5 backdrop-blur-md">
+                    {section.tip_label && (
+                      <div className="mb-2 text-sm font-semibold tracking-[0.2em] text-white/65 uppercase">
+                        {section.tip_label}
+                      </div>
+                    )}
+                    <p
+                      className="text-sm leading-7 text-white/70"
+                      dangerouslySetInnerHTML={{ __html: section.tip ?? '' }}
+                    />
+                  </div>
+                )}
+              </div>
+            </div>
+
+            <div className="grid gap-4">
+              {section.image?.src && (
+                <div className="relative overflow-hidden rounded-[2rem] border border-white/12 bg-black/25 p-3 shadow-2xl shadow-black/40 backdrop-blur-md">
+                  <div className="absolute inset-x-6 top-5 z-10 flex items-center gap-2">
+                    <span className="size-2 rounded-full bg-[#ff8e6a]" />
+                    <span className="size-2 rounded-full bg-[#f0bf85]" />
+                    <span className="size-2 rounded-full bg-white/60" />
+                  </div>
+                  <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-black/25 to-transparent" />
+                  <Image
+                    className="aspect-[4/5] w-full rounded-[1.35rem] object-cover"
+                    src={section.image.src}
+                    alt={section.image.alt || ''}
+                    width={section.image.width || 900}
+                    height={section.image.height || 1100}
+                    priority
+                    quality={85}
+                    unoptimized={section.image.src.startsWith('http')}
+                  />
+                </div>
+              )}
+
+              {section.items && section.items.length > 0 && (
+                <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
+                  {section.items.map((item, idx) => (
+                    <div
+                      key={idx}
+                      className="rounded-2xl border border-white/10 bg-white/8 p-5 backdrop-blur-md"
+                    >
+                      <div className="text-[11px] font-semibold tracking-[0.22em] text-white/55 uppercase">
+                        {item.title}
+                      </div>
+                      <div className="mt-2 text-lg font-semibold text-white">
+                        {item.description}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+    );
   }
 
   return (
@@ -58,7 +240,7 @@ export function Hero({
 
       <div className="relative mx-auto max-w-full px-4 text-center md:max-w-5xl">
         {texts && texts.length > 0 ? (
-          <h1 className="text-foreground text-4xl font-semibold text-balance sm:mt-12 sm:text-6xl">
+          <h1 className="text-foreground font-serif text-4xl font-semibold text-balance sm:mt-12 sm:text-6xl">
             {texts[0]}
             <Highlighter action="underline" color="#FF9800">
               {highlightText}
@@ -66,7 +248,7 @@ export function Hero({
             {texts[1]}
           </h1>
         ) : (
-          <h1 className="text-foreground text-4xl font-semibold text-balance sm:mt-12 sm:text-6xl">
+          <h1 className="text-foreground font-serif text-4xl font-semibold text-balance sm:mt-12 sm:text-6xl">
             {section.title}
           </h1>
         )}

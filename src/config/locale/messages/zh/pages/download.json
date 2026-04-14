@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "title": "下载 Crimson Desert 修改器",
+    "description": "查看 Crimson Desert 修改器推荐下载方式、相对安全的来源说明、安装步骤和常见下载问题，面向 PC 玩家。",
+    "keywords": "crimson desert trainer download, download crimson desert trainer, crimson desert trainer safe, how to download trainer"
+  },
+  "page": {
+    "title": "下载 Crimson Desert 修改器",
+    "description": "查看最新的 Crimson Desert 修改器获取方式，包括最常用的版本、替代平台以及面向 PC 玩家的安装指导。",
+    "show_sections": [
+      "hero",
+      "primary-download",
+      "alternative-download",
+      "advanced-options",
+      "how-to-use",
+      "safety",
+      "faq",
+      "bottom-cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "下载 Crimson Desert 修改器",
+        "description": "查看最新的 Crimson Desert 修改器获取方式，包括最常用的版本、替代平台以及面向 PC 玩家的安装指导。",
+        "buttons": [
+          {
+            "title": "查看修改器选项",
+            "url": "#primary",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
+        "tip": "本站不直接托管可执行文件。所有下载均由其原始发布者提供。"
+      },
+      "primary-download": {
+        "id": "primary",
+        "block": "download-options",
+        "title": "推荐修改器（最常见选择）",
+        "items": [
+          {
+            "title": "基于 FLiNG 的修改器版本",
+            "description": "目前最常被使用的 Crimson Desert 修改器方案通常基于 FLiNG 构建。它覆盖主流 PC 版本，并提供生命值、体力、精神、伤害、金钱和速度控制等核心功能。",
+            "badge": "推荐",
+            "featured": true,
+            "items": [
+              {
+                "title": "适配常见 PC 版本"
+              },
+              {
+                "title": "功能覆盖广"
+              },
+              {
+                "title": "更新较频繁"
+              }
+            ],
+            "text": "Download from Official Source",
+            "url": "https://flingtrainer.com/trainer/crimson-desert-trainer/",
+            "target": "_blank",
+            "variant": "default",
+            "tip": "点击后会跳转到原始修改器提供方。"
+          }
+        ],
+        "columns": 1
+      },
+      "alternative-download": {
+        "id": "alternative-download",
+        "block": "download-options",
+        "title": "替代方案：WeMod 应用（更易上手）",
+        "items": [
+          {
+            "title": "WeMod",
+            "description": "WeMod 是一个提供图形化作弊开关的平台，适合更偏好引导式操作、而不是手动管理 trainer 文件的用户。",
+            "items": [
+              {
+                "title": "界面对新手更友好"
+              },
+              {
+                "title": "通常不需要手动记热键"
+              },
+              {
+                "title": "需要安装程序并注册账号"
+              }
+            ],
+            "text": "Open WeMod Option",
+            "url": "https://www.wemod.com/",
+            "target": "_blank",
+            "variant": "outline"
+          }
+        ],
+        "columns": 1,
+        "className": "bg-muted/40"
+      },
+      "advanced-options": {
+        "id": "advanced-options",
+        "block": "download-options",
+        "title": "高级选项",
+        "items": [
+          {
+            "title": "Aurora 或 Cheat Engine 表",
+            "description": "更有经验的用户可能会倾向于 Aurora 或 Cheat Engine tables 这类方案。它们可定制性更高，但需要更多手动配置和使用经验。",
+            "items": [
+              {
+                "title": "可自定义程度更高"
+              },
+              {
+                "title": "需要手动配置"
+              },
+              {
+                "title": "更适合有经验的用户"
+              }
+            ]
+          }
+        ],
+        "columns": 1
+      },
+      "how-to-use": {
+        "id": "how-to-use",
+        "title": "如何安装和使用修改器",
+        "description": "",
+        "steps": [
+          {
+            "title": "从选定来源下载修改器",
+            "description": "选择最适合你使用习惯的方案。"
+          },
+          {
+            "title": "将压缩包解压到一个文件夹",
+            "description": "启动前先完整解压下载内容。"
+          },
+          {
+            "title": "以管理员身份运行修改器",
+            "description": "这样通常更容易正确识别并附加到游戏进程。"
+          },
+          {
+            "title": "启动 Crimson Desert",
+            "description": "等待游戏完全加载后再启用功能。"
+          },
+          {
+            "title": "通过热键或开关启用功能",
+            "description": "按照提供方界面或说明里的键位启用需要的功能。"
+          }
+        ],
+        "note": "启动前请务必确认修改器版本和游戏版本兼容。"
+      },
+      "safety": {
+        "id": "safety",
+        "title": "重要安全说明",
+        "description": "修改器会与游戏内存交互，因此可能触发杀毒软件警告。这种行为很常见，并不总是意味着存在恶意程序。",
+        "safety_tips": [
+          {
+            "title": "只从可信来源下载"
+          },
+          {
+            "title": "打开前先扫描文件"
+          },
+          {
+            "title": "不要在联机或竞技模式中使用"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "下载常见问题",
+        "items": [
+          {
+            "question": "为什么你们不直接提供修改器文件？",
+            "answer": "为了让下载来源更清晰、版本信息更准确，这个页面会把用户引导到原始维护者所在的页面。"
+          },
+          {
+            "question": "我该选哪个方案？",
+            "answer": "大多数用户会先选择推荐修改器。如果你更希望安装流程简单，WeMod 会更容易上手。"
+          },
+          {
+            "question": "为什么下载被拦截了？",
+            "answer": "浏览器安全机制或杀毒软件可能会因为 trainer 修改游戏内存行为而拦截相关文件。"
+          }
+        ]
+      },
+      "bottom-cta": {
+        "id": "bottom-cta",
+        "title": "准备开始了吗？",
+        "description": "从上面的方案中选择最适合你的一个，然后按照安装步骤开始使用 Crimson Desert 修改器。",
+        "buttons": [
+          {
+            "title": "Go to Recommended Download",
+            "url": "#primary",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
+        "className": "bg-muted/40"
+      }
+    }
+  }
+}

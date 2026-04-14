@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "title": "Download Crimson Desert Trainer",
+    "description": "Explore recommended Crimson Desert trainer download options, safer source guidance, setup steps, and common download questions for PC players.",
+    "keywords": "crimson desert trainer download, download crimson desert trainer, crimson desert trainer safe, how to download trainer"
+  },
+  "page": {
+    "title": "Download Crimson Desert Trainer",
+    "description": "Access the latest Crimson Desert trainer options, including the most commonly used builds, alternative platforms, and setup guidance for PC players.",
+    "show_sections": [
+      "hero",
+      "primary-download",
+      "alternative-download",
+      "advanced-options",
+      "how-to-use",
+      "safety",
+      "faq",
+      "bottom-cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Download Crimson Desert Trainer",
+        "description": "Access the latest Crimson Desert trainer options, including the most commonly used builds, alternative platforms, and setup guidance for PC players.",
+        "buttons": [
+          {
+            "title": "Get Trainer Options",
+            "url": "#primary",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
+        "tip": "We do not host executable files directly. All downloads are provided by their original creators."
+      },
+      "primary-download": {
+        "id": "primary",
+        "block": "download-options",
+        "title": "Recommended Trainer (Most Popular Option)",
+        "items": [
+          {
+            "title": "FLiNG-Based Trainer Builds",
+            "description": "The most widely used Crimson Desert trainer is based on FLiNG builds. It supports major PC versions and includes core cheat features such as health, stamina, spirit, damage, money, and speed controls.",
+            "badge": "Recommended",
+            "featured": true,
+            "items": [
+              {
+                "title": "Works with common PC versions"
+              },
+              {
+                "title": "Wide feature support"
+              },
+              {
+                "title": "Frequently updated"
+              }
+            ],
+            "text": "Download from Official Source",
+            "url": "https://flingtrainer.com/trainer/crimson-desert-trainer/",
+            "target": "_blank",
+            "variant": "default",
+            "tip": "You will be redirected to the original trainer provider."
+          }
+        ],
+        "columns": 1
+      },
+      "alternative-download": {
+        "id": "alternative-download",
+        "block": "download-options",
+        "title": "Alternative: WeMod App (Easy Setup)",
+        "items": [
+          {
+            "title": "WeMod",
+            "description": "WeMod is a trainer platform that provides a simplified interface for enabling cheats. It is suitable for users who prefer a guided setup instead of manual trainer files.",
+            "items": [
+              {
+                "title": "Beginner-friendly interface"
+              },
+              {
+                "title": "No manual hotkey setup required"
+              },
+              {
+                "title": "Requires installation and account"
+              }
+            ],
+            "text": "Open WeMod Option",
+            "url": "https://www.wemod.com/",
+            "target": "_blank",
+            "variant": "outline"
+          }
+        ],
+        "columns": 1,
+        "className": "bg-muted/40"
+      },
+      "advanced-options": {
+        "id": "advanced-options",
+        "block": "download-options",
+        "title": "Advanced Options",
+        "items": [
+          {
+            "title": "Aurora or Cheat Engine Tables",
+            "description": "Advanced users may prefer alternative tools such as Aurora or Cheat Engine tables. These options provide more control but require additional setup knowledge.",
+            "items": [
+              {
+                "title": "More customizable"
+              },
+              {
+                "title": "Requires manual configuration"
+              },
+              {
+                "title": "Recommended for experienced users"
+              }
+            ]
+          }
+        ],
+        "columns": 1
+      },
+      "how-to-use": {
+        "id": "how-to-use",
+        "title": "How to Install and Use the Trainer",
+        "description": "",
+        "steps": [
+          {
+            "title": "Download the trainer from the selected source",
+            "description": "Choose the option that best matches your setup preferences."
+          },
+          {
+            "title": "Extract the archive to a folder",
+            "description": "Unzip the downloaded files before launching anything."
+          },
+          {
+            "title": "Run the trainer as administrator",
+            "description": "This helps the trainer access the game process correctly."
+          },
+          {
+            "title": "Launch Crimson Desert",
+            "description": "Wait until the game is fully loaded before enabling options."
+          },
+          {
+            "title": "Activate features using hotkeys or toggles",
+            "description": "Use the provider's interface or listed keybinds to enable the features you need."
+          }
+        ],
+        "note": "Always check version compatibility before launching the trainer."
+      },
+      "safety": {
+        "id": "safety",
+        "title": "Important Safety Notes",
+        "description": "Trainers interact with game memory and may trigger antivirus warnings. This behavior is common and does not always indicate malicious intent.",
+        "safety_tips": [
+          {
+            "title": "Download only from trusted sources"
+          },
+          {
+            "title": "Scan files before opening"
+          },
+          {
+            "title": "Do not use in online or competitive modes"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Download FAQs",
+        "items": [
+          {
+            "question": "Why don't you host the trainer directly?",
+            "answer": "To support safer downloads and more accurate versioning, this page links users to the original sources where trainers are maintained and updated."
+          },
+          {
+            "question": "Which option should I choose?",
+            "answer": "Most users choose the recommended trainer. Beginners may prefer WeMod if they want an easier setup flow."
+          },
+          {
+            "question": "Why is my download blocked?",
+            "answer": "Browser security tools or antivirus software may block trainer files because they modify game memory behavior."
+          }
+        ]
+      },
+      "bottom-cta": {
+        "id": "bottom-cta",
+        "title": "Ready to Get Started?",
+        "description": "Choose the best option above and follow the setup steps to start using the Crimson Desert trainer.",
+        "buttons": [
+          {
+            "title": "Go to Recommended Download",
+            "url": "#primary",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
+        "className": "bg-muted/40"
+      }
+    }
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "page": {
+    "title": "Crimson Desert WeMod – How to Use, Features & Trainer Comparison",
+    "description": "Learn how to use WeMod for Crimson Desert cheats, what features it offers, and how it compares to traditional trainer tools.",
+    "show_sections": [
+      "hero",
+      "what-is-wemod",
+      "wemod-features",
+      "how-to-use-wemod",
+      "comparison-table",
+      "which-to-choose",
+      "trainer-cta",
+      "safety",
+      "faq",
+      "bottom-cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "variant": "immersive",
+        "label": "WEMOD VS TRAINER GUIDE",
+        "highlight_text": "WeMod",
+        "title": "Crimson Desert WeMod – How to Use and Best Alternatives",
+        "description": "Looking for an easier way to use cheats in Crimson Desert? WeMod provides a beginner-friendly platform that allows you to enable trainer-style features without manual setup.",
+        "note": "This guide explains how WeMod works, what features to expect, and whether it's better than traditional trainers.",
+        "note_label": "What You'll Learn",
+        "tip": "Perfect for players who want a simpler cheat experience without technical setup.",
+        "tip_label": "Why Choose WeMod",
+        "buttons": [
+          {
+            "title": "Download WeMod",
+            "url": "https://wemod.com/download",
+            "target": "_blank",
+            "variant": "default"
+          },
+          {
+            "title": "View Trainer Options",
+            "url": "/download",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "items": [
+          {
+            "title": "Simpler Setup",
+            "description": "No manual trainer configuration needed"
+          },
+          {
+            "title": "User-Friendly",
+            "description": "Easy toggle interface for all cheats"
+          },
+          {
+            "title": "Auto Updates",
+            "description": "Automatic game detection and updates"
+          }
+        ],
+        "image": {
+          "src": "/imgs/wemod/crimson-desert-wemod.jpg",
+          "alt": "Crimson Desert WeMod interface and features",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      "what-is-wemod": {
+        "id": "what-is-wemod",
+        "block": "text-section",
+        "title": "What Is WeMod?",
+        "description": "WeMod is a desktop application that lets players enable cheats for PC games through a simple interface. Instead of manually running trainer files, users can launch a game directly from the app and toggle cheats with on-screen controls.",
+        "extended_description": "It is commonly used as an alternative to standalone trainer tools, offering a more streamlined experience for players who want quick access to game enhancements.",
+        "className": "pt-8 md:pt-12"
+      },
+      "wemod-features": {
+        "id": "wemod-features",
+        "block": "features-list",
+        "title": "WeMod Features for Crimson Desert",
+        "description": "Depending on game support, WeMod may include the following features:",
+        "label": "Available Features",
+        "items": [
+          {
+            "title": "Unlimited Health",
+            "description": "Never worry about dying in combat",
+            "icon": "Heart"
+          },
+          {
+            "title": "Unlimited Stamina",
+            "description": "Run and fight without endurance limits",
+            "icon": "Zap"
+          },
+          {
+            "title": "Unlimited Spirit",
+            "description": "Use magical abilities without restriction",
+            "icon": "Sparkles"
+          },
+          {
+            "title": "Super Damage",
+            "description": "Defeat enemies with enhanced power",
+            "icon": "Sword"
+          },
+          {
+            "title": "Money & Items",
+            "description": "Edit your gold and inventory quantities",
+            "icon": "Coin"
+          },
+          {
+            "title": "Game Speed",
+            "description": "Control how fast time passes in the game",
+            "icon": "Clock"
+          }
+        ],
+        "note": "Features may vary depending on the game version and trainer compatibility."
+      },
+      "how-to-use-wemod": {
+        "id": "how-to-use-wemod",
+        "block": "how-to-use",
+        "title": "How to Use WeMod with Crimson Desert",
+        "description": "Follow these simple steps to get started with WeMod:",
+        "steps": [
+          {
+            "title": "Download and install the WeMod application",
+            "description": "Visit the official WeMod website and download the installer for Windows."
+          },
+          {
+            "title": "Open WeMod and search for Crimson Desert",
+            "description": "Launch the app and use the search function to find Crimson Desert in your game library."
+          },
+          {
+            "title": "Launch the game through WeMod",
+            "description": "Click the 'Play' button in WeMod to automatically start the game with cheat support."
+          },
+          {
+            "title": "Enable cheats using the on-screen controls",
+            "description": "Use the simple toggle interface to activate the cheats you want while playing."
+          }
+        ],
+        "note": "WeMod simplifies the process by removing the need for manual trainer setup and memorizing hotkeys."
+      },
+      "comparison-table": {
+        "id": "comparison-table",
+        "block": "comparison-table",
+        "title": "WeMod vs Traditional Trainer",
+        "description": "Compare the two approaches to choose the best option for your needs:",
+        "comparison_items": [
+          {
+            "feature": "Ease of Use",
+            "wemod": "Very easy - One-click setup",
+            "trainer": "Moderate - Manual configuration"
+          },
+          {
+            "feature": "Setup Process",
+            "wemod": "Automatic - App handles everything",
+            "trainer": "Manual - Download and configure files"
+          },
+          {
+            "feature": "Features Available",
+            "wemod": "Moderate - Standard cheat options",
+            "trainer": "More flexible - Advanced customization"
+          },
+          {
+            "feature": "Updates",
+            "wemod": "Handled in app - Automatic updates",
+            "trainer": "Manual - Download new versions"
+          },
+          {
+            "feature": "System Access",
+            "wemod": "Requires installation - Desktop app",
+            "trainer": "Standalone - Single file download"
+          },
+          {
+            "feature": "Best For",
+            "wemod": "Beginners - Want simple experience",
+            "trainer": "Advanced users - Want more control"
+          }
+        ]
+      },
+      "which-to-choose": {
+        "id": "which-to-choose",
+        "block": "choice-section",
+        "title": "Which One Should You Use?",
+        "description": "Choose the option that best fits your gaming style and technical comfort level.",
+        "choices": [
+          {
+            "title": "Choose WeMod If...",
+            "description": "You want a simple and guided experience. Ideal for beginners who want to enable cheats quickly without dealing with setup details or technical configurations.",
+            "icon": "Smile",
+            "recommendation": "Best for casual players"
+          },
+          {
+            "title": "Choose Trainer If...",
+            "description": "You want more control, faster updates, or specific feature support. Better for experienced users who don't mind manual setup and want access to advanced customization options.",
+            "icon": "Settings",
+            "recommendation": "Best for advanced players"
+          }
+        ]
+      },
+      "trainer-cta": {
+        "id": "trainer-cta",
+        "block": "cta",
+        "title": "Get a Compatible Trainer",
+        "description": "If you prefer a traditional trainer or need more advanced features, you can explore available trainer options and versions.",
+        "buttons": [
+          {
+            "title": "Open Trainer Download Page",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "safety": {
+        "id": "safety",
+        "block": "safety",
+        "title": "Is WeMod Safe?",
+        "description": "WeMod is widely used, but like all tools that modify game memory, it may trigger antivirus warnings. Always download software from official sources and use it responsibly.",
+        "safety_tips": [
+          {
+            "title": "Only download from the official WeMod website"
+          },
+          {
+            "title": "Avoid using cheats in online or competitive modes"
+          },
+          {
+            "title": "Check compatibility with your current game version"
+          },
+          {
+            "title": "Use at your own risk and follow game terms of service"
+          }
+        ],
+        "note": "This site also provides traditional trainer alternatives for users who prefer standalone solutions."
+      },
+      "faq": {
+        "id": "faq",
+        "block": "faq",
+        "title": "FAQs About WeMod",
+        "description": "Common questions about using WeMod with Crimson Desert.",
+        "items": [
+          {
+            "question": "Does WeMod work with Crimson Desert?",
+            "answer": "Support depends on available trainer builds and compatibility with the current game version. Check the WeMod app for the latest game support information."
+          },
+          {
+            "question": "Is WeMod free to use?",
+            "answer": "WeMod offers both free and premium features. Basic cheat functionality is typically available for free, with additional features available in the premium version."
+          },
+          {
+            "question": "Why is WeMod not working with my game?",
+            "answer": "This can be caused by version mismatch after game updates, blocked permissions, or conflicts with other software. Try running both WeMod and the game as administrator."
+          },
+          {
+            "question": "Is WeMod better than a traditional trainer?",
+            "answer": "It depends on your needs. WeMod is easier to use and better for beginners, while traditional trainers offer more flexibility and advanced features for experienced users."
+          },
+          {
+            "question": "Can I get banned for using WeMod?",
+            "answer": "Using any cheat tool in online or competitive modes may result in bans. Only use these tools in offline single-player modes to be safe."
+          },
+          {
+            "question": "Where can I download a traditional trainer instead?",
+            "answer": "You can find traditional trainer downloads and detailed guides on our dedicated download page for more advanced options."
+          }
+        ]
+      },
+      "bottom-cta": {
+        "id": "bottom-cta",
+        "block": "cta",
+        "title": "Ready to Use Cheats in Crimson Desert?",
+        "description": "Choose the method that works best for you and start using cheats with the right setup.",
+        "buttons": [
+          {
+            "title": "Go to Download Options",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  },
+  "metadata": {
+    "title": "Crimson Desert WeMod – How to Use, Features & Trainer Comparison",
+    "description": "Learn how to use WeMod for Crimson Desert cheats, what features it offers, and how it compares to traditional trainer tools.",
+    "keywords": "crimson desert wemod, wemod crimson desert cheats, wemod trainer, wemod vs trainer"
+  }
+}

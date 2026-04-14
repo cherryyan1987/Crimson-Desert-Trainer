@@ -1,0 +1,285 @@
+{
+  "page": {
+    "title": "Crimson Desert WeMod – 使用方法、功能与修改器对比",
+    "description": "了解如何为 Crimson Desert 使用 WeMod 作弊码，它提供哪些功能，以及与传统修改器工具的对比。",
+    "show_sections": [
+      "hero",
+      "what-is-wemod",
+      "wemod-features",
+      "how-to-use-wemod",
+      "comparison-table",
+      "which-to-choose",
+      "trainer-cta",
+      "safety",
+      "faq",
+      "bottom-cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "variant": "immersive",
+        "label": "WEMOD VS 修改器指南",
+        "highlight_text": "WeMod",
+        "title": "Crimson Desert WeMod – 使用方法和最佳替代方案",
+        "description": "寻找更简单的方法在 Crimson Desert 中使用作弊？WeMod 提供了一个适合初学者的平台，让您无需手动设置即可启用修改器风格的功能。",
+        "note": "本指南解释了 WeMod 的工作原理、可期待的功能，以及它是否比传统修改器更好。",
+        "note_label": "你将学到",
+        "tip": "适合想要简单作弊体验而无需技术设置的游戏玩家。",
+        "tip_label": "为什么选择 WeMod",
+        "buttons": [
+          {
+            "title": "下载 WeMod",
+            "url": "https://wemod.com/download",
+            "target": "_blank",
+            "variant": "default"
+          },
+          {
+            "title": "查看修改器选项",
+            "url": "/download",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "items": [
+          {
+            "title": "设置更简单",
+            "description": "无需手动配置修改器"
+          },
+          {
+            "title": "用户友好",
+            "description": "所有作弊功能的简单切换界面"
+          },
+          {
+            "title": "自动更新",
+            "description": "自动游戏检测和更新"
+          }
+        ],
+        "image": {
+          "src": "/imgs/wemod/crimson-desert-wemod.jpg",
+          "alt": "Crimson Desert WeMod 界面和功能",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      "what-is-wemod": {
+        "id": "what-is-wemod",
+        "block": "text-section",
+        "title": "什么是 WeMod？",
+        "description": "WeMod 是一个桌面应用程序，让玩家通过简单的界面为 PC 游戏启用作弊功能。无需手动运行修改器文件，用户可以直接从应用程序启动游戏，并通过屏幕控制切换作弊功能。",
+        "extended_description": "它通常被用作独立修改器工具的替代方案，为想要快速访问游戏增强功能的玩家提供更简化的体验。",
+        "className": "pt-8 md:pt-12"
+      },
+      "wemod-features": {
+        "id": "wemod-features",
+        "block": "features-list",
+        "title": "Crimson Desert 的 WeMod 功能",
+        "description": "根据游戏支持，WeMod 可能包含以下功能：",
+        "label": "可用功能",
+        "items": [
+          {
+            "title": "无限生命值",
+            "description": "在战斗中从不担心死亡",
+            "icon": "Heart"
+          },
+          {
+            "title": "无限体力",
+            "description": "无耐力限制地奔跑和战斗",
+            "icon": "Zap"
+          },
+          {
+            "title": "无限精神",
+            "description": "无限制地使用魔法能力",
+            "icon": "Sparkles"
+          },
+          {
+            "title": "超级伤害",
+            "description": "以增强的力量击败敌人",
+            "icon": "Sword"
+          },
+          {
+            "title": "金钱和物品",
+            "description": "编辑你的金币和背包数量",
+            "icon": "Coin"
+          },
+          {
+            "title": "游戏速度",
+            "description": "控制游戏中时间的流逝速度",
+            "icon": "Clock"
+          }
+        ],
+        "note": "功能可能因游戏版本和修改器兼容性而异。"
+      },
+      "how-to-use-wemod": {
+        "id": "how-to-use-wemod",
+        "block": "how-to-use",
+        "title": "如何在 Crimson Desert 中使用 WeMod",
+        "description": "按照这些简单步骤开始使用 WeMod：",
+        "steps": [
+          {
+            "title": "下载并安装 WeMod 应用程序",
+            "description": "访问 WeMod 官方网站并下载 Windows 安装程序。"
+          },
+          {
+            "title": "打开 WeMod 并搜索 Crimson Desert",
+            "description": "启动应用程序并使用搜索功能在你的游戏库中找到 Crimson Desert。"
+          },
+          {
+            "title": "通过 WeMod 启动游戏",
+            "description": "点击 WeMod 中的播放按钮，自动启动支持作弊的游戏。"
+          },
+          {
+            "title": "使用屏幕控制启用作弊",
+            "description": "使用简单的切换界面在游戏时激活你想要的作弊功能。"
+          }
+        ],
+        "note": "WeMod 简化了这个过程，无需手动设置修改器和记忆热键。"
+      },
+      "comparison-table": {
+        "id": "comparison-table",
+        "block": "comparison-table",
+        "title": "WeMod vs 传统修改器",
+        "description": "比较这两种方法以选择最适合你需求的选项：",
+        "comparison_items": [
+          {
+            "feature": "易用性",
+            "wemod": "非常简单 - 一键设置",
+            "trainer": "中等 - 手动配置"
+          },
+          {
+            "feature": "设置过程",
+            "wemod": "自动 - 应用程序处理一切",
+            "trainer": "手动 - 下载和配置文件"
+          },
+          {
+            "feature": "可用功能",
+            "wemod": "中等 - 标准作弊选项",
+            "trainer": "更灵活 - 高级自定义"
+          },
+          {
+            "feature": "更新",
+            "wemod": "应用内处理 - 自动更新",
+            "trainer": "手动 - 下载新版本"
+          },
+          {
+            "feature": "系统访问",
+            "wemod": "需要安装 - 桌面应用",
+            "trainer": "独立 - 单文件下载"
+          },
+          {
+            "feature": "最适合",
+            "wemod": "初学者 - 想要简单体验",
+            "trainer": "高级用户 - 想要更多控制"
+          }
+        ]
+      },
+      "which-to-choose": {
+        "id": "which-to-choose",
+        "block": "choice-section",
+        "title": "你应该选择哪一个？",
+        "description": "选择最适合你的游戏风格和技术舒适度的选项。",
+        "choices": [
+          {
+            "title": "选择 WeMod，如果...",
+            "description": "你想要简单和有引导的体验。适合想要快速启用作弊而无需处理设置细节或技术配置的初学者。",
+            "icon": "Smile",
+            "recommendation": "最适合休闲玩家"
+          },
+          {
+            "title": "选择修改器，如果...",
+            "description": "你想要更多控制、更快的更新或特定功能支持。更适合不介意手动设置并想要访问高级自定义选项的有经验用户。",
+            "icon": "Settings",
+            "recommendation": "最适合高级玩家"
+          }
+        ]
+      },
+      "trainer-cta": {
+        "id": "trainer-cta",
+        "block": "cta",
+        "title": "获取兼容的修改器",
+        "description": "如果你更喜欢传统修改器或需要更高级的功能，可以探索可用的修改器选项和版本。",
+        "buttons": [
+          {
+            "title": "打开修改器下载页面",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "safety": {
+        "id": "safety",
+        "block": "safety",
+        "title": "WeMod 安全吗？",
+        "description": "WeMod 被广泛使用，但像所有修改游戏内存的工具一样，它可能会触发杀毒软件警告。始终从官方来源下载软件并负责任地使用。",
+        "safety_tips": [
+          {
+            "title": "仅从 WeMod 官方网站下载"
+          },
+          {
+            "title": "避免在在线或竞技模式中使用作弊"
+          },
+          {
+            "title": "检查与当前游戏版本的兼容性"
+          },
+          {
+            "title": "自行承担风险并遵守游戏服务条款"
+          }
+        ],
+        "note": "本网站还为喜欢独立解决方案的用户提供传统修改器替代方案。"
+      },
+      "faq": {
+        "id": "faq",
+        "block": "faq",
+        "title": "关于 WeMod 的常见问题",
+        "description": "关于在 Crimson Desert 中使用 WeMod 的常见问题。",
+        "items": [
+          {
+            "question": "WeMod 支持 Crimson Desert 吗？",
+            "answer": "支持取决于可用的修改器构建和与当前游戏版本的兼容性。请查看 WeMod 应用以获取最新的游戏支持信息。"
+          },
+          {
+            "question": "WeMod 是免费的吗？",
+            "answer": "WeMod 提供免费和高级功能。基本的作弊功能通常是免费的，高级版本中提供额外功能。"
+          },
+          {
+            "question": "为什么 WeMod 对我的游戏不起作用？",
+            "answer": "这可能是由于游戏更新后的版本不匹配、权限被阻止或与其他软件的冲突。尝试以管理员身份运行 WeMod 和游戏。"
+          },
+          {
+            "question": "WeMod 比传统修改器更好吗？",
+            "answer": "这取决于你的需求。WeMod 更易于使用，更适合初学者，而传统修改器为有经验的用户提供更多灵活性和高级功能。"
+          },
+          {
+            "question": "使用 WeMod 会被封禁吗？",
+            "answer": "在任何在线或竞技模式中使用作弊工具都可能导致封禁。为安全起见，请仅在离线单人模式中使用这些工具。"
+          },
+          {
+            "question": "在哪里可以下载传统修改器？",
+            "answer": "你可以在我们专门的下载页面找到传统修改器下载和详细指南，以获取更多高级选项。"
+          }
+        ]
+      },
+      "bottom-cta": {
+        "id": "bottom-cta",
+        "block": "cta",
+        "title": "准备在 Crimson Desert 中使用作弊了吗？",
+        "description": "选择最适合你的方法，并使用正确的设置开始使用作弊。",
+        "buttons": [
+          {
+            "title": "前往下载选项",
+            "url": "/download",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  },
+  "metadata": {
+    "title": "Crimson Desert WeMod – 使用方法、功能与修改器对比",
+    "description": "了解如何为 Crimson Desert 使用 WeMod 作弊码，它提供哪些功能，以及与传统修改器工具的对比。",
+    "keywords": "crimson desert wemod, wemod crimson desert 作弊码, wemod 修改器, wemod vs 修改器"
+  }
+}
